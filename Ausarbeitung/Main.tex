@@ -1,4 +1,5 @@
 \documentclass[]{article}
+\usepackage{cite}
 
 %opening
 \title{Überblick über die elektronischen Systeme von Fahrzeugen}
@@ -17,17 +18,20 @@
 }
 \date{14. Februar 2020}
 
-
 \begin{document}
 \maketitle
 
 \begin{abstract}
-Lorem ipsum
+Lorem ipsum blabla
 \end{abstract}
+\newpage
+\tableofcontents
 
-\include{31500_chap2}
-\include{31500_chap3}
-\include{31500_chap4}
+%including the separate Files
+\include{Kapitel1}
+\include{Kapitel2}
+\include{Kapitel3}
 
-
+\bibliography{Bibliography}
+\bibliographystyle{plain}
 \end{document}

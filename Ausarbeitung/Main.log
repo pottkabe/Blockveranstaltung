@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.11.20)  8 FEB 2020 23:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.11.20)  9 FEB 2020 00:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -22,7 +22,11 @@ File: size10.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Main.aux (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/31500_chap2.aux) (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/31500_chap3.aux) (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/31500_chap4.aux))
+) (c:/texlive/2019/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+) (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Main.aux (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel1.aux) (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel2.aux) (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel3.aux))
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -45,36 +49,43 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 22.
  [1
 
-{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-\openout2 = `31500_chap2.aux'.
+{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Main.toc)
+\tf@toc=\write3
+\openout3 = `Main.toc'.
 
- (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/31500_chap2.tex) [2
+ [2]
+\openout2 = `Kapitel1.aux'.
 
-]
-\openout2 = `31500_chap3.aux'.
-
- (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/31500_chap3.tex) [3
-
+ (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel1.tex) [3
 
 ]
-\openout2 = `31500_chap4.aux'.
+\openout2 = `Kapitel2.aux'.
+
+ (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel2.tex) [4
 
 
-No file 31500_chap4.tex.
-(e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Main.aux (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/31500_chap2.aux) (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/31500_chap3.aux) (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/31500_chap4.aux)) ) 
+]
+\openout2 = `Kapitel3.aux'.
+
+ (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel3.tex) [5
+
+
+] (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Main.bbl) [6
+
+] (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Main.aux (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel1.aux) (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel2.aux) (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel3.aux)) ) 
 Here is how much of TeX's memory you used:
- 277 strings out of 492164
- 4702 string characters out of 6129087
- 62779 words of memory out of 5000000
- 4697 multiletter control sequences out of 15000+600000
- 7887 words of font info for 28 fonts, out of 8000000 for 9000
+ 383 strings out of 492164
+ 6303 string characters out of 6129087
+ 63782 words of memory out of 5000000
+ 4789 multiletter control sequences out of 15000+600000
+ 8541 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 25i,6n,22p,478b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on "e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Main.pdf" (3 pages, 70505 bytes).
+ 25i,6n,22p,475b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on "e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Main.pdf" (6 pages, 100997 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
+ 55 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
