@@ -6,7 +6,7 @@ Verständnis des Aufbau der elektronischen Systeme und der Netzstruktur
 
 
 ## Zielgruppe:
-Leute mit grundlegenden technischem Verständnis, die einen Einstieg in das Thema suchen
+Leute mit grundlegenden technischem Verständnis, die einen Einstieg in das Thema suchen.
 
 ## Aufbau
 
@@ -41,9 +41,9 @@ Leute mit grundlegenden technischem Verständnis, die einen Einstieg in das Them
    - Vehicle2Vehicle Vernetzung
    - Vehicle2Infrastructure Vernetzung
 
-### Anhang:
-    - Bibliography
-    - Glossar
+9. Anhang:
+   - Bibliography
+   - Glossar
 
 ## Bibtex File:
   ### Keys mit <Namenskürzel>+Sequenznummer
