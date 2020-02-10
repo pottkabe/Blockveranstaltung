@@ -35,7 +35,7 @@ Leute mit grundlegenden technischem Verständnis, die einen Einstieg in das Them
 
 7. Assistenzsysteme (P. Burger)
 
-8. Ausblick (B.Pottkamp)
+8. Ausblick (B. Pottkamp)
    - Autonomes / Teilautonomes Fahren
    - Gefahren (Angriffe)
    - Vehicle2Vehicle Vernetzung
