@@ -3,6 +3,7 @@
 \contentsline {section}{\numberline {3}Vernetzung im Fahrzeug}{5}%
 \contentsline {section}{\numberline {4}Bussysteme}{6}%
 \contentsline {section}{\numberline {5}Sensorsysteme}{7}%
-\contentsline {section}{\numberline {6}Steuergeräte}{8}%
+\contentsline {section}{\numberline {6}ECU / Steuergeräte}{8}%
+\contentsline {subsection}{\numberline {6.1}Introduction}{8}%
 \contentsline {section}{\numberline {7}Assistenzsysteme}{9}%
 \contentsline {section}{\numberline {8}Ausblick}{10}%
