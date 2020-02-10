@@ -4,12 +4,18 @@ The top-level auxiliary file: Main.aux
 A level-1 auxiliary file: Kapitel1.aux
 A level-1 auxiliary file: Kapitel2.aux
 A level-1 auxiliary file: Kapitel3.aux
+A level-1 auxiliary file: Kapitel4.aux
+A level-1 auxiliary file: Kapitel5.aux
+A level-1 auxiliary file: Kapitel6.aux
+A level-1 auxiliary file: Kapitel7.aux
+A level-1 auxiliary file: Kapitel8.aux
+A level-1 auxiliary file: Kapitel9.aux
 The style file: ieeetr.bst
 Database file #1: Bibliography.bib
 Warning--empty author and editor in .Bosch01
 You've used 1 entry,
             1876 wiz_defined-function locations,
-            488 strings with 3712 characters,
+            494 strings with 3784 characters,
 and the built_in function-call counts, 163 in all, are:
 = -- 15
 > -- 1
