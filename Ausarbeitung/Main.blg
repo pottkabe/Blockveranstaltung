@@ -4,30 +4,34 @@ The top-level auxiliary file: Main.aux
 A level-1 auxiliary file: Kapitel1.aux
 A level-1 auxiliary file: Kapitel2.aux
 A level-1 auxiliary file: Kapitel3.aux
-The style file: plain.bst
+A level-1 auxiliary file: Kapitel4.aux
+A level-1 auxiliary file: Kapitel5.aux
+A level-1 auxiliary file: Kapitel6.aux
+A level-1 auxiliary file: Kapitel7.aux
+A level-1 auxiliary file: Kapitel8.aux
+The style file: ieeetr.bst
 Database file #1: Bibliography.bib
-Warning--to sort, need author, editor, or key in .Bosch01
 Warning--empty author and editor in .Bosch01
 You've used 1 entry,
-            2118 wiz_defined-function locations,
-            508 strings with 4235 characters,
-and the built_in function-call counts, 220 in all, are:
-= -- 22
+            1876 wiz_defined-function locations,
+            493 strings with 3772 characters,
+and the built_in function-call counts, 163 in all, are:
+= -- 15
 > -- 1
 < -- 0
 + -- 1
 - -- 0
-* -- 17
-:= -- 36
-add.period$ -- 3
+* -- 13
+:= -- 27
+add.period$ -- 2
 call.type$ -- 1
-change.case$ -- 3
+change.case$ -- 1
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 13
-empty$ -- 25
+cite$ -- 2
+duplicate$ -- 10
+empty$ -- 21
 format.name$ -- 0
-if$ -- 49
+if$ -- 38
 int.to.chr$ -- 0
 int.to.str$ -- 1
 missing$ -- 1
@@ -35,18 +39,18 @@ newline$ -- 7
 num.names$ -- 0
 pop$ -- 3
 preamble$ -- 1
-purify$ -- 2
+purify$ -- 0
 quote$ -- 0
-skip$ -- 6
+skip$ -- 2
 stack$ -- 0
-substring$ -- 5
+substring$ -- 0
 swap$ -- 1
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2
-warning$ -- 2
+type$ -- 0
+warning$ -- 1
 while$ -- 0
 width$ -- 2
-write$ -- 13
-(There were 2 warnings)
+write$ -- 12
+(There was 1 warning)
