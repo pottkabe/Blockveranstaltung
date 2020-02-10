@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.10)  10 FEB 2020 15:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.10)  10 FEB 2020 15:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -57,6 +57,10 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/peter/Documents/vorber_Block/Blockveranstaltung/Ausarbeitung/Main.toc
 Missing character: There is no Ã in font cmbx10!
 Missing character: There is no ¤ in font cmbx10!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 7.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 7.
 )
 \tf@toc=\write3
 \openout3 = `Main.toc'.
@@ -115,15 +119,15 @@ Missing character: There is no ¤ in font cmbx12!
 
 ] (/home/peter/Documents/vorber_Block/Blockveranstaltung/Ausarbeitung/Main.aux (/home/peter/Documents/vorber_Block/Blockveranstaltung/Ausarbeitung/Kapitel1.aux) (/home/peter/Documents/vorber_Block/Blockveranstaltung/Ausarbeitung/Kapitel2.aux) (/home/peter/Documents/vorber_Block/Blockveranstaltung/Ausarbeitung/Kapitel3.aux) (/home/peter/Documents/vorber_Block/Blockveranstaltung/Ausarbeitung/Kapitel4.aux) (/home/peter/Documents/vorber_Block/Blockveranstaltung/Ausarbeitung/Kapitel5.aux) (/home/peter/Documents/vorber_Block/Blockveranstaltung/Ausarbeitung/Kapitel6.aux) (/home/peter/Documents/vorber_Block/Blockveranstaltung/Ausarbeitung/Kapitel7.aux) (/home/peter/Documents/vorber_Block/Blockveranstaltung/Ausarbeitung/Kapitel8.aux)) ) 
 Here is how much of TeX's memory you used:
- 399 strings out of 492982
- 8512 string characters out of 6134896
+ 402 strings out of 492982
+ 8555 string characters out of 6134896
  57016 words of memory out of 5000000
- 3970 multiletter control sequences out of 15000+600000
- 8541 words of font info for 30 fonts, out of 8000000 for 9000
+ 3973 multiletter control sequences out of 15000+600000
+ 8848 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  23i,6n,19p,475b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on /home/peter/Documents/vorber_Block/Blockveranstaltung/Ausarbeitung/Main.pdf (11 pages, 117158 bytes).
+Output written on /home/peter/Documents/vorber_Block/Blockveranstaltung/Ausarbeitung/Main.pdf (11 pages, 118010 bytes).
 PDF statistics:
  72 PDF objects out of 1000 (max. 8388607)
  50 compressed objects within 1 object stream

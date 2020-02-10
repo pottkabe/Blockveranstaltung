@@ -69,6 +69,7 @@ INPUT /home/peter/Documents/vorber_Block/Blockveranstaltung/Ausarbeitung/Kapitel
 OUTPUT /home/peter/Documents/vorber_Block/Blockveranstaltung/Ausarbeitung/Kapitel6.aux
 INPUT /home/peter/Documents/vorber_Block/Blockveranstaltung/Ausarbeitung/Kapitel6.tex
 INPUT /home/peter/Documents/vorber_Block/Blockveranstaltung/Ausarbeitung/Kapitel6.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 OUTPUT /home/peter/Documents/vorber_Block/Blockveranstaltung/Ausarbeitung/Kapitel7.aux
 INPUT /home/peter/Documents/vorber_Block/Blockveranstaltung/Ausarbeitung/Kapitel7.tex
 INPUT /home/peter/Documents/vorber_Block/Blockveranstaltung/Ausarbeitung/Kapitel7.tex
