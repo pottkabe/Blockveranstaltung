@@ -1,104 +1,68 @@
-PWD e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung
-INPUT c:/texlive/2019/texmf.cnf
-INPUT c:/texlive/2019/texmf-dist/web2c/texmf.cnf
-INPUT c:/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Main.tex
-OUTPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Main.log
-INPUT c:/texlive/2019/texmf-dist/tex/latex/base/article.cls
-INPUT c:/texlive/2019/texmf-dist/tex/latex/base/article.cls
-INPUT c:/texlive/2019/texmf-dist/tex/latex/base/size10.clo
-INPUT c:/texlive/2019/texmf-dist/tex/latex/base/size10.clo
-INPUT c:/texlive/2019/texmf-dist/tex/latex/cite/cite.sty
-INPUT c:/texlive/2019/texmf-dist/tex/latex/cite/cite.sty
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Main.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Main.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel1.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel1.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel2.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel2.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel3.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel3.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel4.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel4.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel5.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel5.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel6.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel6.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel7.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel7.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel8.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel8.aux
-OUTPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Main.aux
-INPUT c:/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
-OUTPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Main.pdf
-INPUT c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Main.toc
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Main.toc
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
-OUTPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Main.toc
-OUTPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel1.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel1.tex
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel1.tex
-OUTPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel2.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel2.tex
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel2.tex
-OUTPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel3.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel3.tex
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel3.tex
-OUTPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel4.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel4.tex
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel4.tex
-OUTPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel5.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel5.tex
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel5.tex
-OUTPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel6.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel6.tex
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel6.tex
-OUTPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel7.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel7.tex
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel7.tex
-OUTPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel8.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel8.tex
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel8.tex
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Main.bbl
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Main.bbl
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Main.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel1.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel1.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel2.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel2.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel3.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel3.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel4.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel4.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel5.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel5.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel6.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel6.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel7.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel7.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel8.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel8.aux
-INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb
-INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
-INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
-INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
-INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
-INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
+PWD /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung
+INPUT /etc/texmf/web2c/texmf.cnf
+INPUT /usr/share/texmf/web2c/texmf.cnf
+INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
+INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
+INPUT /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Main.tex
+OUTPUT /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Main.log
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+INPUT /usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
+INPUT /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Main.aux
+INPUT /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Main.aux
+OUTPUT /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Main.aux
+INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
+OUTPUT /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Main.pdf
+INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+OUTPUT /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Main.toc
+OUTPUT /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel1.aux
+INPUT /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel1.tex
+INPUT /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel1.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+OUTPUT /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel2.aux
+INPUT /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel2.tex
+INPUT /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel2.tex
+OUTPUT /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel3.aux
+INPUT /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel3.tex
+INPUT /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel3.tex
+OUTPUT /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel4.aux
+INPUT /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel4.tex
+INPUT /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel4.tex
+OUTPUT /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel5.aux
+INPUT /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel5.tex
+INPUT /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel5.tex
+INPUT /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Main.aux
+INPUT /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel1.aux
+INPUT /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel1.aux
+INPUT /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel2.aux
+INPUT /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel2.aux
+INPUT /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel3.aux
+INPUT /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel3.aux
+INPUT /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel4.aux
+INPUT /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel4.aux
+INPUT /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel5.aux
+INPUT /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel5.aux
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb

@@ -1,32 +1,33 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.11.20)  10 FEB 2020 12:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.19)  10 FEB 2020 13:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **Main.tex
-(e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Main.tex
-LaTeX2e <2019-10-01> patch level 3
-(c:/texlive/2019/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2019/10/25 v1.4k Standard LaTeX document class
-(c:/texlive/2019/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
+(/home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Main.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (c:/texlive/2019/texmf-dist/tex/latex/cite/cite.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
-) (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Main.aux (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel1.aux) (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel2.aux) (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel3.aux) (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel4.aux) (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel5.aux) (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel6.aux) (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel7.aux) (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel8.aux))
+) (/home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Main.aux)
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -41,6 +42,10 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
+Missing character: There is no Ã in font cmr17!
+Missing character: There is no œ in font cmr17!
+Missing character: There is no Ã in font cmr17!
+Missing character: There is no ¼ in font cmr17!
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -49,73 +54,95 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 22.
  [1
 
-{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Main.toc)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+No file Main.toc.
 \tf@toc=\write3
 \openout3 = `Main.toc'.
 
- [2]
+[2]
 \openout2 = `Kapitel1.aux'.
 
- (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel1.tex) [3
+ (/home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel1.tex
+
+LaTeX Warning: Citation `.Bosch01' on page 3 undefined on input line 2.
+
+) [3
 
 ]
 \openout2 = `Kapitel2.aux'.
 
- (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel2.tex) [4
+ (/home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel2.tex) [4
 
 
 ]
 \openout2 = `Kapitel3.aux'.
 
- (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel3.tex) [5
+ (/home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel3.tex) [5
 
 
 ]
 \openout2 = `Kapitel4.aux'.
 
- (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel4.tex) [6
+ (/home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel4.tex) [6
 
 
 ]
 \openout2 = `Kapitel5.aux'.
 
- (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel5.tex) [7
+ (/home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel5.tex
+
+/home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel5.tex:1: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass
+                  {article}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-]
-\openout2 = `Kapitel6.aux'.
+/home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel5.tex:3: LaTeX Error: Can be used only in preamble.
 
- (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel6.tex) [8
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \begin{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
-
-]
-\openout2 = `Kapitel7.aux'.
-
- (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel7.tex) [9
-
-
-]
-\openout2 = `Kapitel8.aux'.
-
- (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel8.tex) [10
+[7
 
 
-] (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Main.bbl) [11
+] (/home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Main.aux (/home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel1.aux) (/home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel2.aux) (/home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel3.aux) (/home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel4.aux) (/home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Kapitel5.aux))
 
-] (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Main.aux (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel1.aux) (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel2.aux) (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel3.aux) (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel4.aux) (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel5.aux) (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel6.aux) (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel7.aux) (e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel8.aux)) ) 
+LaTeX Warning: There were undefined references.
+
+ ) )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 3 (\begingroup)
+### bottom level
+(\end occurred when \iftrue on line 35 was incomplete)
+(\end occurred when \ifnum on line 35 was incomplete) 
 Here is how much of TeX's memory you used:
- 439 strings out of 492164
- 9001 string characters out of 6129087
- 65712 words of memory out of 5000000
- 4810 multiletter control sequences out of 15000+600000
- 8541 words of font info for 30 fonts, out of 8000000 for 9000
+ 353 strings out of 492982
+ 6124 string characters out of 6134895
+ 56073 words of memory out of 5000000
+ 3961 multiletter control sequences out of 15000+600000
+ 8195 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 25i,6n,22p,475b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Main.pdf" (11 pages, 116882 bytes).
+ 23i,6n,22p,475b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+Output written on /home/tobi/Uni/Semester6/Blockveranstaltung/Blockveranstaltung/Ausarbeitung/Main.pdf (7 pages, 89890 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+ 56 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
