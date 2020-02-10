@@ -28,8 +28,6 @@ INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapit
 INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel7.aux
 INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel8.aux
 INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel8.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel9.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel9.aux
 OUTPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Main.aux
 INPUT c:/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
@@ -76,7 +74,6 @@ INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapit
 OUTPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel8.aux
 INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel8.tex
 INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel8.tex
-OUTPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel9.aux
 INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Main.bbl
 INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Main.bbl
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
@@ -97,8 +94,6 @@ INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapit
 INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel7.aux
 INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel8.aux
 INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel8.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel9.aux
-INPUT e:/Studium/6. Semester/Vorbereitende Blockveranstaltung/Ausarbeitung/Kapitel9.aux
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb

@@ -43,4 +43,7 @@ Leute mit grundlegenden technischem Verständnis, die einen Einstieg in das Them
 ### Anhang:
   * Bibliography
   * Glossar
+
+## Bibtex File:
+  ### Keys mit <Namenskürzel>+Sequenznummer
  
