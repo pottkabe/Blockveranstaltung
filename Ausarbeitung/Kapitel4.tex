@@ -1,2 +1,87 @@
 \section{Bussysteme}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\subsection{CAN}
+\subsubsection{Anwendung}
+CAN (Controller Area Network) 
+\subsubsection{Topologie}
+\subsubsection{Realisierung}
+\subsubsection{Vor- und Nachteile}
+
+\subsection{LIN}
+\subsubsection{Anwendung}
+\subsubsection{Topologie}
+\subsubsection{Realisierung}
+\subsubsection{Vor- und Nachteile}
+
+\subsection{FlexRay}
+\subsubsection{Anwendung}
+\subsubsection{Topologie}
+\subsubsection{Realisierung}
+\subsubsection{Vor- und Nachteile}
+
+\subsection{Automotive Ethernet}
+\subsubsection{Anwendung}
+Für Ethernet im Automotive Bereich wird der Standard IEEE802.3 verwendet. Trotz seiner hohen Beliebtheit und Verbreitung war Ethernet im Automotive Bereich lange Zeit undenkbar, vor allem da es keine Echtzeit erfüllen kann und für kleine Anwendungen zu teuer ist. Moderne Anwendungen (z.B. komplexere Assistenzsysteme, Diagnose- oder Multimedia-Anwendungen) fordern jedoch immer höhere Datenraten, so dass Ethernet immer mehr Beachtung bekommt. Es gibt mittlerweile auch Protokolle (TimeTriggeredEthernet/SAE AS6802) um Ethernet echtzeitfähig zu machen und so einen kompletten Umstieg auf Ethernet zu ermöglichen.
+
+%Quote einfügen
+
+\subsubsection{Topologie}
+Ethernet wird im Automotive Bereich oft in der Stern- (siehe Abbildung "NR FEHLT") oder Baum-Topologie (siehe Abbildung "NR FEHLT") verwendet. Dies ist ein neuer Ansatz, da die meisten bisherigen Bussysteme nahezu nur auf die Sterntopologie setzen.
+
+%Quote einfügen + Bilder
+
+\subsubsection{Realisierung}
+\subsubsection{Vor- und Nachteile}
+\begin{tabular}{l | l}
+	Vorteile & Nachteile\\
+	\hline - hohe Datenrate & - hohe Kosten\\
+	\hline - neue Technologien z.B. Service discovery,  & - keine Echtzeitfähigkeit, nicht\\
+	DNS oder Streams für Multimedia & deterministisch\\
+	\hline - leichte Anbindung für IOT und Internet & - Umdenken/Umdesignen für neue \\
+	& Topologie und neuen Ansatz\\
+	\hline - viele Standardimplementationen und&\\
+	Wiederverwertbarkeit der Software&\\
+	\hline - einfacher Austausch von Komponenten &\\
+	
+%Quote einfügen
+
+\end{tabular}
+
+\subsection{MOST}		
+\subsubsection{Anwendung}
+Der MOST-Bus (Media Oriented Systems Transport) wird von der MOST Cooperation standardisiert und wird im Automotive Bereich nahezu ausschließlich für Multi-Media-Anwendungen eingesetzt. Durch seine hohe Datenrate kann es schnell viele Daten zwischen den Komponenten verschicken.
+
+%Quote einfügen
+
+\subsubsection{Topologie}
+Ein MOST-Netzwerk ist immer als synchronisierter Ring aufgebaut. Es gibt immer einen Master, der die Synchronisation steuert.
+
+%Quote einfügen + Bilder
+
+\subsubsection{Realisierung}
+\subsubsection{Vor- und Nachteile}
+\begin{tabular}{l |l}
+Vorteile & Nachteile\\
+\hline - hohe Datenrate & - hohe Kosten\\
+\hline - einfacher Austausch von Komponenten & - proprietäre Hardware\\
+\hline - einheitliche Schnittstellen von Komponenten &\\
+\end{tabular}
+
+\subsection{Bluetooth}		
+\subsubsection{Anwendung}
+Bluetooth wird durch die "Bluetooth Special Interest Group", ein Verband aus derzeit über 2000 Unternehmen,  standardisiert. Momentan ist Bluetooth 5 die aktuellste Version. Es wird im Automotive Bereich verwendet, um kostengünstige und kabellose Verbindungen aufzubauen. Der größte Bereich sind hierbei Multi-Media-Anwendungen, um beispielsweise Smartphones oder Kopfhörer anzubinden.
+\subsubsection{Topologie}
+Bluetooth Netzwerke haben immer einen Master, der die Kommunikation steuert. Dieser ist jedoch nicht fest, sondern wird beim Verbindungsaufbau ausgemacht.
+Bluetooth-Netzwerke können entweder als Pico- oder Scatternet aufgebaut sein.
+\\
+\begin{tabular}{l|l}
+	Name & Beschreibung\\
+	\hline Piconet & - ein Master mit mehreren Slaves\\
+	& - aktive Slaves können über Adressen angesprochen werden\\
+	\hline Scatternet & - besteht aus mehreren Piconets\\
+	& - jedes Piconet hat seinen eigenen Master\\
+	& - zwischen zwei Piconets gibt es immer einen Knoten, der in beiden Netzen \\
+	& ist und sie somit verbindet
+\end{tabular}
+
+\subsubsection{Realisierung}
+\subsubsection{Vor- und Nachteile}
