@@ -2,7 +2,6 @@
 \section{Bussysteme}
 \subsection{CAN}
 \subsubsection{Anwendung}
-CAN (Controller Area Network) 
 \subsubsection{Topologie}
 \subsubsection{Realisierung}
 \subsubsection{Vor- und Nachteile}
@@ -30,15 +29,18 @@ Ethernet wird im Automotive Bereich oft in der Stern- (siehe Abbildung "NR FEHLT
 
 %Quote einfügen + Bilder
 \begin{figure}[h!]
-	\includegraphics[width=\linewidth]{bus_topology.jpg}
-	\caption{Abbildung 4.1}
-\end{figure}
-\begin{figure}[h!]
-	\includegraphics[width=\linewidth]{tree_topology.jpg}
-	\caption{Abbildung 4.2}
+	\centering
+	\subfigure[a]{
+		\includegraphics[width=\linewidth]{bus_topology.jpg}
+		\label{Abbildung 4.1}
+	}
+	\subfigure[b]{
+		\includegraphics[width=\linewidth]{tree_topology.jpg}
+		\label{Abbildung 4.1}
+	}
+	\caption{Ethernet Topologie}
 \end{figure}
 
-\subsubsection{Realisierung}
 \subsubsection{Vor- und Nachteile}
 \begin{tabular}{l | l}
 	Vorteile & Nachteile\\
@@ -51,8 +53,8 @@ Ethernet wird im Automotive Bereich oft in der Stern- (siehe Abbildung "NR FEHLT
 	Wiederverwertbarkeit der Software&\\
 	\hline - einfacher Austausch von Komponenten &\\
 	
-%Quote einfügen
-
+	%Quote einfügen
+	
 \end{tabular}
 
 \subsection{MOST}		
@@ -62,7 +64,9 @@ Der MOST-Bus (Media Oriented Systems Transport) wird von der MOST Cooperation st
 %Quote einfügen
 
 \subsubsection{Topologie}
-Ein MOST-Netzwerk ist immer als synchronisierter Ring aufgebaut. Es gibt immer einen Master, der die Synchronisation steuert.
+Ein MOST-Netzwerk ist immer als synchronisierter Ring aufgebaut. Es gibt immer einen Master, der die Synchronisation steuert. Alle Komponenten haben eine Kontrollkanal, auf der Daten zum Status des Systems/Netzwerks gesendet werden. Zudem gibt es mehrere synchrone und asynchrone Kanäle, die sich die Bandbreite, je nach Last, teilen.
+Auf dem synchronen Kanälen werden fortlaufende Daten, z.B. Audio- oder Videostreams verschickt.
+Die asynchronen Kanäle sind für Daten reserviert, die nicht fortlaufend entstehen, aber schnell verarbeitet werden sollen. Z.B. Nutzereingaben zum Überspringen eines Songs oder Eingabe ins Navi.
 
 %Quote einfügen + Bilder
 
@@ -73,41 +77,33 @@ Ein MOST-Netzwerk ist immer als synchronisierter Ring aufgebaut. Es gibt immer e
 
 \subsubsection{Realisierung}
 \subsubsection{Vor- und Nachteile}
-\begin{tabular}{l |l}
-Vorteile & Nachteile\\
-\hline - hohe Datenrate & - hohe Kosten\\
-\hline - einfacher Austausch von Komponenten & - proprietäre Hardware\\
-\hline - einheitliche Schnittstellen von Komponenten &\\
+\begin{tabular}{l|l}
+	Vorteile & Nachteile\\
+	\hline - hohe Datenrate & - hohe Kosten\\
+	\hline - einfacher Austausch von Komponenten & - proprietäre Hardware\\
+	\hline - einheitliche Schnittstellen von Komponenten &\\
 \end{tabular}
 
 \subsection{Bluetooth}		
 \subsubsection{Anwendung}
-Bluetooth wird durch die "Bluetooth Special Interest Group", ein Verband aus derzeit über 2000 Unternehmen,  standardisiert. Momentan ist Bluetooth 5 die aktuellste Version. Es wird im Automotive Bereich verwendet, um kostengünstige und kabellose Verbindungen aufzubauen. Der größte Bereich sind hierbei Multi-Media-Anwendungen, um beispielsweise Smartphones oder Kopfhörer anzubinden.
+Bluetooth wird durch die Bluetooth Special Interest Group, ein Verband aus derzeit über 2000 Unternehmen,  standardisiert. Momentan ist Bluetooth 5 die aktuellste Version. Es wird im Automotive Bereich verwendet, um kostengünstige und kabellose Verbindungen aufzubauen. Der größte Bereich sind hierbei Multi-Media-Anwendungen, um beispielsweise Smartphones oder Kopfhörer anzubinden.
+
 \subsubsection{Topologie}
 Bluetooth Netzwerke haben immer einen Master, der die Kommunikation steuert. Dieser ist jedoch nicht fest, sondern wird erst beim Verbindungsaufbau ausgemacht.
 Bluetooth-Netzwerke können entweder als Pico- oder Scatternet aufgebaut sein.
+\\                                                                                                           
+Ein Piconet ist eine Ansammlung von mind. zwei Bluetooth-Geräten. Eines der Geräte übernimmt die Rolle des Masters und steuert die Kommunikation mit allen Slaves. Slaves können nur mit dem Master kommunizieren.
+\\                                                                                                                                  Ein Scatternet ist ein Zusammenschluss von mehreren Piconets, bei dem jeweils ein Knoten teil eines anderen Piconets ist. Dieser geteilte Knoten kann nicht gleichzeitig in beiden Netzen sein, sondern muss immer zwischen den Netzen wechseln. Der geteilte Knoten kann Master höchstens für eines der Netze sein.
 \\
-Ein Piconet ist eine Ansammlung von mind. zwei Bluetooth-Geräten. Eines der Geräte übernimmt die Rolle des MAsters und steuert die Kommunikation mit allen Slaves. Slaves können nur 
-\begin{tabular}{l|l}
-	Name & Beschreibung\\
-	\hline Piconet & - ein Master mit mehreren Slaves\\
-	& - aktive Slaves können über Adressen angesprochen werden\\
-	\hline Scatternet & - besteht aus mehreren Piconets\\
-	& - jedes Piconet hat seinen eigenen Master\\
-	& - zwischen zwei Piconets gibt es immer einen Knoten, der in beiden Netzen \\
-	& ist und sie somit verbindet\\
-\end{tabular}
-
 \begin{figure}[h!]
-	\includegraphics[width=\linewidth]{pico_scatternet.png}
+	\includegraphics[width=0.7\linewidth]{pico_scatternet.png}
 	\caption{Abbildung 4.4}
 \end{figure}
 
-\subsubsection{Realisierung}
 \subsubsection{Vor- und Nachteile}
 \begin{tabular}{l|l}
 	Vorteile & Nachteile\\
 	\hline - geringe Kosten & - geringe Datenrate\\
 	\hline - kabellos & - geringe Reichweite\\
-	\hline - Standardsoftware & \\
+	\hline - Standardsoftware & - störanfälliger als physische Busse\\
 \end{tabular}
