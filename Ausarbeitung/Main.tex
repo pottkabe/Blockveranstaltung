@@ -1,10 +1,12 @@
 \documentclass[]{article}
+
 \usepackage{cite}
 \usepackage{graphicx}
 \usepackage{subcaption}
+\usepackage[utf8]{inputenc}
 \captionsetup[subfigure]{list=true, font=large, labelfont=bf, 
 	labelformat=brace, position=top}
-\usepackage[utf8]{inputenc}
+
 
 %opening
 \title{Überblick über die elektronischen Systeme von Fahrzeugen}
@@ -28,7 +30,7 @@
 
 \begin{abstract}
 	Mittlerweile machen elektronische Systeme etwa ein Drittel der Gesamtkosten bei der Produktion von
-	Personenkraftwagen aus. Von Motorsteuerung, über aktive und passive Sicherheitssysteme, 
+	Personenkraftwagen aus \cite{BP01}. Von Motorsteuerung, über aktive und passive Sicherheitssysteme, 
 	Wartung und Diagnose bis hin zur Unterhaltungselektronik sind Personenkraftwagen inzwischen hochgradig
 	vernetzte Systeme.\\
 	
@@ -44,8 +46,6 @@
 	zu verstehen ist.
 \end{abstract}
 
-\newpage
-
 \tableofcontents
 
 %including the separate Files
@@ -57,7 +57,7 @@
 \include{Kapitel7}
 \include{Kapitel8}
 
-\bibliography{Bibliography}
-\bibliographystyle{ieeetr}
+\bibliography{References}
+\bibliographystyle{plain}
 
 \end{document}
