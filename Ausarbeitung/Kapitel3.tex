@@ -1,2 +1,220 @@
 \section{Vernetzung im Fahrzeug}
-Lorem ipsum dolor sit amyxcyt, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.asdasdasdasd
+
+1. EINLEITUNG Vernetzung
+- übergang/einleitungs teil, begründung warum relevant
+
+- unterteilung in 4 subsystems (paper) powertrain, chassis, body, infotainment
+- Roughly speaking, an auto-electronics system
+consists of four subsystems: powertrain, chassis,
+body, and infotainment. Various protocols have
+been developed for these systems.
+- controller area network (CAN) has long been
+used to transmit the majority of in-vehicle commu-
+nication signals and is still widely deployed in the
+powertrain and body control domains.
+- FlexRay, with a distinguished determinism and fault-tol-
+erance capability, is typically used in support of
+advanced chassis control and communication
+backbones.
+- While the local interconnection net-
+work (LIN) was designed for cost-saving purposes
+and is often used in low-speed communications
+- where high networking performance is usually
+not required, Media Oriented Systems Transport
+(MOST) networks are notably expensive and are
+commonly used in premium vehicles as the carri-
+er of infotainment data.
+
+-Each sub-system has its own control units such
+as mechanical, electrical, or computer controls,
+which are independent of but cooperative with
+those of other sub-systems.
+
+- Powertrain: The powertrain sub-system refers
+to a set of automobile components including
+engine, transmission, shafts, wheels, and so on,
+that generate power to the vehicle. The power-
+train can also include sensors and actuators to
+improve the comfort of the ride, reduce pollution
+caused by exhaust systems, increase fuel efficien-
+cy, and strengthen the vehicle’s safety.
+
+- Chassis: The chassis sub-system refers to the
+internal framework that supports the powertrain
+and all other components, except the engine,
+that are required for driving. Brakes, steering, and
+suspension are commonly know components in
+the chassis. Similar to the powertrain, sensors and
+actuators can be installed in the chassis domain
+and have stringent delay requirements.
+
+- Body: The body sub-system includes com-
+fort-controlling components such as climate con-
+trol, seat adjustment, window rolling, lights, and
+so on. Sensors for these components usually have
+low bandwidth requirements and have a relatively
+high-tolerance for delays (milliseconds).
+
+Infotainment: The infotainment sub-system
+provides an interface for facilitating the inter-
+action between humans and the automobile’s
+electronics. This sub-system presents information
+acquired from sensors or ECUs in a user-friendly
+and interactive manner to users for the purpose
+of entertainment. Users’ mobile devices can also
+be hooked up to the infotainment sub-system via
+Bluetooth, WiFi, or cellular networks. Moreover,
+as the infotainment sub-system controls different
+parts of the vehicle and displays their information,
+it is capable of communicating with other sub-sys-
+tems. For example, some advanced infotainment
+systems can remotely diagnose vehicle problems
+by gathering diagnostic data from other sub-sys-
+tems. As such, the infotainment system requires
+high bandwidth but is tolerant to delay in the
+scale of millisecond.
+
+- SAFETY-SYSTEM: a sub-system that is vertical to these sub-systems
+is the driver assistance and safety system. This
+system is designed to assist drivers to operate a
+vehicle in a safer manner. It includes built-in GPS,
+cruise control, automatic parking, and even more
+advanced functionalities such as lane-shift warn-
+ing, collision avoidance, intelligent speed adjust-
+ment or advice, driver drowsiness detection, and
+blind spot detection. This system typically has its
+own sensors and dedicated controllers, which
+intensively interact with other systems (i.e., pow-
+ertrain, chassis, body, and infotainment). Also,
+it usually demands high bandwidth, and such a
+demand keeps increasing due to more camer-
+as (for example, BMW’s surround view feature)
+being installed on new car models.
+
+WIRED technologies:
+
+CAN: CAN is an asynchronous serial bus network that intercon-
+nects devices, sensors, and actuators in a system or a sub-system
+for control applications.CAN is a multi-master communication protocol that is
+designed for data integrity and automotive applications with data rates up to 1 Mb/s.
+CAN is known for its low cost and high reliability. Due to these advantages, CAN is widely used
+in the powertrain, chassis, and body electronics. CAN has relatively low bandwidth
+and is a shared medium for data transmissions, which significantly restricts its application to other
+domains such as infotainment.
+
+LIN is a universal asynchronous receiver-transmitter-based,
+single-master, multiple-slave networking protocol
+that was purposefully developed for automotive
+sensor and actuator networking applications. LIN
+offers a cost-effective alternative for connecting
+motors, switches, and sensors in the vehicle.
+LIN is often used for body electronics as it is free and its bandwidth
+requirement is easy to meet.
+
+- FlexRay: FlexRay is a network communications
+protocol with a dual-channel data rate up to 10 Mb/s
+for advanced in-vehicle controls. The notable fea-
+ture of FlexRay is its dual-channel architecture
+that provides reassurance to satisfy the reliability
+requirements of emerging safety systems such
+as brake-by-wire.
+
+- Media Oriented System Transport (MOST):
+MOST is a high-speed multimedia network tech-
+nology that is specially designed for the info-
+tainment system.
+
+- Ethernet: Ethernet has been the standard tech-
+nology for local area networks ever since it was
+invented, and plays a critical role in the develop-
+ment of all types of communications. Automo-
+tive Ethernet is the Ethernet technology when it
+is used to connect components within a vehicle.
+Being initially designed to meet various (e.g., elec-
+tric, bandwidth, latency, synchronization, and net-
+work management) requirements, the advantages
+of automotive Ethernet are obvious:
+• It increases the communication bandwidth
+for advanced driving functionalities and the
+infotainment system.
+• It changes the in-vehicle network structures
+from decentralized domain-specific topolo-
+gies to hierarchical ones.
+• It enhances the scalability and flexibility of
+future in-vehicle networking architecture.
+In addition to these networking technologies,
+advancements in power and data transmissions
+are also worth noting.
+
+- Power Line Communication (PLC): PLC is a
+set of technologies using electronic wires to simul-
+taneously carry both data and electric power.
+Traditionally, electronic devices in a vehicle were
+always required to have at least two connections: 
+one for data transmission and one for power supply.
+
+WIRELESS: Wireless communication technologies are a
+potential alternative for in-vehicle networking.
+These technologies not only allow wireless con-
+nections to be established between drivers/
+passengers’ personal electronics and vehicles’
+built-in infotainment system, but can eliminate the
+need for wirlelines by also interconnecting sen-
+sors, actuators, and ECUs in such a manner.
+
+Anforderungen:
+zeitkritisch, zuverlässig, redundant für x by wire systeme,
+engere Anbindung, oft zeitgesteuerte systeme, da zeitliche aktualität 
+der daten bestimmbar und ausbleiben einer nachricht sofort erkannt wird.
+Aber nicht sehr gut erweiterbar, muss oft im voraus geplant werden. 
+Composability ist wichtig -> Zusammensetzbarkeit, unabhängige Integration
+von Teilsystemen in das Gesamtsystem. Überprüfung und Fehlerbehandlugn somit
+auch auf das Teilsystem beschränkt.
+
+Systemunterteilung:
+powertrain, chassis, body, infotainment
+Arten der Vernetzung:
+wired: can, lin, flexray, most, ethernet
+wireless: wifi, bluethooth, uwb, zigbee
+topologien:
+stern, maschen, ring, bus, hybrid
+Adressierungsarten:
+teilnehmerbasiert, nachrichtenorientiert, übertragungsorientiert
+Buszugriffsverfahren:
+tdma, cdma, master-slave, random, csma/c(a/d)
+strukturierung:
+osi referenzmodell
+Steuermechanismen:
+ereignis und zeitgesteuert
+
+Vernetzung im KFZ:
+früher einfache signalleitungen zur kom. Bedarf zu hoch, Lösung Bussysteme
+viele signale in mehreren steuergeräten benötigt, somit sinnvoll gemeinsam genutzte
+größen in einem steuergerät zu berechnen und über interne netzwerk kommunikation auszutauschen
+beispiele (pre crash und acc s83)
+
+vorteile von bussystemen gegenüber herkömmlichen verdrahteten signalleitungen:
+kosten, gewicht,bauraum, höhere zuverlässigkeit, funktionssicherheit (geringere anzahl steckverbindungen),
+vereinfachte fahrzeugmontage, durch sensor empfangene signale können auf bus gegeben und von
+den relevanten komponenten empfangen und verarbeitet werden. Composability -> einfachere einbindung neuer
+Systeme an einen Datenbus anstelle neuer verkabelung.
+
+Anforderungen an bussysteme:
+datenübertragungsrate, störsicherheit
+
+klassifizierung von bussystemen:
+klasse a,b,c,d
+
+Einsatzgebiete:
+antriebsstrang, chassis, innenraum, telematik
+antriebsstrang u chassis -> primär echtzeitanwednungen (evtl details s86)
+Innenraum -> Multiplexaspekte bei der Vernetzung. (details s86)
+Telematik -> Multimedia- und Infotainmentanwendungen vernetzt (details s86)
+
+kopplung der netzwerke:
+- da protokolle nicht kompatibel -> gateway, liest empfangene daten ein
+und passt format für das ziel netzwerkprotokoll an.
+- entweder zentrales gateway oder verteilte gateways
+- eingesetzte bussysteme sind herstellerabhängig
+
+

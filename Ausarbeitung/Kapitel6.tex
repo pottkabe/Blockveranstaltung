@@ -11,6 +11,7 @@
     Komplexität und dazugehörige Programmierarbeit für das Zusammenspiel aller ECUs. Ein
     Paar wichtige Steuergeräte sind hier zum Beispiel das BCM, PCM, GEM und die ECU.
     Um die ECUs vor ungewollter Korruption zu bewahren, werden diese geschützt. 
+    ~\cite{ECU.PB6} ~\cite{ECU.PB5} ~\cite{ECU.PB4} ~\cite{ECU.PB3} ~\cite{ECU.PB2} ~\cite{ECU.PB1}
 
     \subsection{Typen}
         \subsubsection{Brake Control Module (BCM)}
@@ -22,21 +23,25 @@
         \begin{itemize}
             \item ABS (Antiblockiersystem) verhindert das bei einer Vollbremsung die Räder
             blockiert werden und somit der Fahrer die Kontroller über das Fahrzeug verliert.
+            ~\cite{antiblockiersys.PB1}
 
             \item TCS steht für Traction control System, dieses System ist für die Regelung der Räder
             verantwortlich. Es ist für die Steuerung der Räder zuständig, wenn die Oberfläche des Fahrbelags
             rutschig oder klatt ist. Es soll das durchdrehen der Räder bei solchen Belägen verhindern.
+            ~\cite{tractioncontrol.PB1}
 
             \item ESC (electronic stability control)/ESP (elektronisches Stabilitätsprogramm) ist ein System
             für das Spur halten des Automobil. Es soll als Unterstützung bei Ausweichmanöver oder beim Verlust
             der Kontrolle über das Fahrzeug dienen. Es wird das Motormomentum reduziert und sollte das nicht
             ausreichen, wird zusätzlich gebremst.
+            ~\cite{ESP.PB1}
         \end{itemize}
 
         \subsubsection{Engine Control Unit (ECU)}
         Dieses Unit ist das zentrale Element des Motormanagement System bzw. des Motorsteuergerät. Das Steuergerät
         erledigt Aufgaben wie die kontrolle des Brennstoff-, Luftzuflusses und die Zündung. Es managet alle
         benötigten Komponenten, die für den Motor von Bedeutung sind.
+        ~\cite{enginecontrol.PB1}
 
         \subsubsection{Powertrain Control Module (PCM)}
         Das Powertrain Control Module ist vergleichbar mit dem Gehirn des Menschen. Das Gehirn bei einem Menschen
@@ -44,36 +49,42 @@
         Störungen miteinander laufen. Das selbe macht das Powertrain Control Module, es koordiniert die einzelnen
         Subsysteme des Automobil für eine reibungslose Zusammenarbeit. Diese reibungslose Arbeit kann das Powertrain
         Control Module durch die zahlreichen im Auto verbauten Sensoren bewerkstelligen.
+        ~\cite{PCM.PB1}
 
         \subsubsection{Door Control Unit (DCU)}
         Diese Einheit befindet sich in der Innenseite der Fahrer- und Beifahrertüre. Sie ist verantwortlich für das
         managen der Komponenten in der Türe. Funktionen die von dieser Einheit bedient werden sind zum Beispiel die
         Zentralverriegelung, Fensterheber und Seitenspiegelanpassung. Generell kann die Aussage getroffen werden,
         dass alle türbezogenen Funktionen durch dieses Control Unit gesteuert werden.
+        ~\cite{doorcontrol.PB1} ~\cite{doorcontrol.PB2}
 
         \subsubsection{Electric Power Steering Control Unit (PSCU)}
         Die PSCU sammelt Daten von den einzelnen EPS ("electronic power steering") Komponenten. Diese sind der EPS Motor,
         das Getriebe und ein Torque Sensor. Durch die Informationen dieser Komponenten kann das PSCU das Lenken für den
         Fahrer unterstützen. Diese Einheit ist unabhängig von dem Motor und kann somit seperat funktionieren, auch wenn
         der Motor ausgeschaltet ist.
+        ~\cite{PSCU.PB1}
 
         \subsubsection{Human-machine Interface (HMI)}
         Dieses Unit behandelt die Bedienung und die Interaktion zwischen Personen und Maschinen. Es besteht aus einer
         Hardware- und Softwarekomponente, die Eingaben von dem Benutzer in Signale umwandelt. Wenn es in Signale
         ungewandelt ist, können die Daten nun von weiteren Einheiten verarbeitet werden.
+        ~\cite{HMI.PB1} ~\cite{HMI.PB2}
 
         \subsubsection{Seat Control Unit}
         Durch neue Technologie und Fortschritt haben neue oder luxus Autos ein Steuergerät für die Funktionen der Sitzeinstellungen.
         Durch dieses Gerät kann eine vielzahl von Positionen eingestellt und kleine Anpassungen vorgenommen werden.
         Der Gedanke hinter dieser Einheit, ist zum einen der Komfort der eine große Rolle spielt und zum anderen die Sicherheit,
         die durch die richtigen Einstellungen gewährleistet wird. Beispiele für die Einstelungen sind die Winkel der Sitzlehne,
-        Sitzhöhe oder Sitzweite. 
+        Sitzhöhe oder Sitzweite.
+        ~\cite{seatcontrol.PB1} ~\cite{seatcontrol.PB2} 
 
         \subsubsection{Speed Control Unit (SCU)}
         Die Speed Control Unit oder auch Speed Control System besteht aus mehreren Komponenten, die in der Zusammenarbeit
         verscheidene Aktionen ausführen können. Aktionen die durch Daten von bzw. für das Speed Control System ausgeführt
         werden können sind das halten der Geschwindigkeit bei jedem Gelände oder das überschreiten einer zuvor festgelegten
         Geschwindigkeit. Bei beiden Aktionen werden Daten an das System gesendet und von diesem verarbeitet.
+        ~\cite{SCU.PB1}
 
         \subsubsection{Telematic Control Unit (TCU)}
         Dies ist ein Steuergerät, das die Position des Fahrzeugs bestimmen kann. Es kombiniert das Überwachungssystem,
@@ -82,6 +93,7 @@
         Diese Einheit kann unteranderem benutzt werden, um Informatinen über das Radio oder das GSM module zu erhalten.
         Dieses Steuergerät bietet auch weiter wichtige Funktionen in den neuen Autosmobilen, hier gibt es die Verbindung
         des Autos zu der Cloud, Fahrer und Mitfahrer sicher zu halten und den Verkehrfluss zu optimieren.
+        ~\cite{telematiccontrol.PB1} ~\cite{telematiccontrol.PB2} ~\cite{telematiccontrol.PB3}
 
         \subsubsection{Transmission Control Unit (TCU)}
         Diese Einheit hat kontrolle über das Ändern der Gänge in einem Getriebe. Eine Software kontrolliert das Schalten
@@ -89,6 +101,7 @@
         nur bei einem Automaticgetriebe gefunden werden. Durch das Steuern weiterer Komponenten kann dieses Steuergerät das
         Fahrverhalten eines Fahrzeugs verbessern. Auch kann das Steuergerät das Schaltverhalten anpassen, da ein Fahrer
         heutzutage zwischen einem sportlichen und normalem Fahrstil wählen kann.
+        ~\cite{transmissioncontrol.PB1} ~\cite{transmissioncontrol.PB2}
 
         \subsubsection{Battery Management System (BMS)}
         Kurz genommen managet das BMS wiederaufladbare Batterien, sodass diese nicht beschädigt werden und außerhalb ihrer
@@ -96,12 +109,15 @@
         zusammenarbeiten. Auch eine Herausforderung ist das Funktionieren des BMS in Echtzeit. Hier sind immer schnelle
         Ladungen und Entladungen durch das Bremsen und Beschleunigen vorhanden. Das BMS ist hier, wie erwähnt für die
         Gewährleistung der Sicherheit der Batterien.
+        ~\cite{BMS.PB1} ~\cite{BMS.PB2}
 
         \subsubsection{Suspension Control Module}
         Dieses Modul ist für die richtige Einstellung der Stoßdämpfer in einem Fahrzeug. Es werden Daten und Informationen
         gesammelt und so die Einstellungen vorgenommen. Unteranderem soll dieses Modul das Fahrverhalten verbessern oder
         die aktuelle Karroserie höhe beibehalten.
+        ~\cite{suspensioncontrol.PB1}
 
         \subsubsection{Body Control Module}
         Das Body Control Module ist zuständig für den elektrischen Zugriff, komfort- und sicherheit Features. Es wird in
         den Nutzfahrzeugen für Beleuchtung, akustische Signale oder Scheibenwischer verwendet.
+        ~\cite{BCM.PB1}
