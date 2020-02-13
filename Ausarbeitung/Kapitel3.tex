@@ -1,14 +1,15 @@
+
 \section{Vernetzung}
 Mit neuen Anforderungen an die Sicherheit und Effizienz, sowie einer Vielzahl von gewünschten Features 
-für Komfort und Unterhaltung, zeichnet sich ein enormer Anstieg der in modernen Fahrzeugen verbauten ECUs ab \cite{GatewayIEEE}.
+für Komfort und Unterhaltung, zeichnet sich ein enormer Anstieg der in modernen Fahrzeugen verbauten ECUs ab \cite{TW_kim2014gateway}.
 Ein Großteil dieser Systeme und Steuergeräte ist voneinander abhängig. Zentral erfasste Signale werden von mehr als nur einem
 System benötigt und verarbeitete Signale, sowie berechnete Werte müssen zwischen zusammenhängenden Systemen vermittelt werden.
 
 Mit einer herkömmlichen Verkabelung der einzelnen Komponenten wie zum Beginn der Automobilindustrie ist ein derartiges Wachstum
 nicht zu bewältigen. Neben Problemen wie erhöhtes Gewicht und Kosten einer solchen Verkabelung bietet ein solches System keine
-Composability \cite{Bosch}. Dies hat zur Folge dass neue Teilkomponenten nicht in das Gesamtsystem integriert werden können ohne die Funktion 
+Composability \cite{reif2011bosch}. Dies hat zur Folge dass neue Teilkomponenten nicht in das Gesamtsystem integriert werden können ohne die Funktion 
 weiterer Teilkomponenten zu beeinflussen. Somit ist eine modulare Zusammensetzbarkeit des internen Kommunikationsnetzwerkes eines Fahrzeugs nötig um die 
-steigende Komplexität der verbauten Elektronik zu bewältigen \cite{Bosch}.
+steigende Komplexität der verbauten Elektronik zu bewältigen \cite{reif2011bosch}.
 
 Im Hinblick auf die erhöhte Komplexität der Elektronik und die daraus folgenden Anforderungen werden wir im Folgenden
 einen Überblick über die Topologie, Technologien und Netzwerkprotokolle, sowie die Unterteilung und Kopplung des internen Netzwerks eines Fahrzeugs bieten.
@@ -55,17 +56,17 @@ einen Überblick über die Topologie, Technologien und Netzwerkprotokolle, sowie
     \subsection{Kommunikation}
     Die eigentliche Datenkommunikation in einem Netzwerk kann anhand der Adressierungsart sowie verwendeten Steuermechanismen unterschieden werden. So ist
     die am häufigsten vorzufindende Adressierungsart teilnehmerorientert. Grundlage dieser Form des Datenaustauschs sind Knotenadressen, welche zusammen mit den
-    zu übertragenden Daten die eigentliche Nachricht bilden \cite{Bosch}. Diese Form der Adressierung finden wir etwa bei Ethernet oder IP. Eine weitere Adressierungsart 
+    zu übertragenden Daten die eigentliche Nachricht bilden \cite{reif2011bosch}. Diese Form der Adressierung finden wir etwa bei Ethernet oder IP. Eine weitere Adressierungsart 
     welche im Kontext des Automobils von Relevanz ist, ist die nachrichtenorientierte Adressierung. Hierbei werden nicht Empfänger, sondern die Nachrichten selbst
-    adressiert, indem sich ein Identifier in den Nachrichten befindet, welcher den Nachrichtentyp kennzeichnet \cite{Bosch}. In diesem Fall benötigt der Sender keine 
-    Kenntnisse über Teilnehmer bzw. deren Adressen und jeder Empfängerknoten entscheidet selbstständig ob er eine Nachricht verarbeitet \cite{Bosch}. Später betrachtete
+    adressiert, indem sich ein Identifier in den Nachrichten befindet, welcher den Nachrichtentyp kennzeichnet \cite{reif2011bosch}. In diesem Fall benötigt der Sender keine 
+    Kenntnisse über Teilnehmer bzw. deren Adressen und jeder Empfängerknoten entscheidet selbstständig ob er eine Nachricht verarbeitet \cite{reif2011bosch}. Später betrachtete
     Protokolle wie CAN, LIN und Flexray sind nachrichtenorientierte Protokolle.
 
     Auch Anhand der Steuermechanismen kann die Kommunikation in Netzwerken unterschieden werden. Unterschieden wird zwischen ereignis- und zeitgesteuerten Systemen.
     Ereignisgesteuerte Bussysteme können aufgrund der inhärent fehlenden Synchronisation der Nachrichten und folglich entstehenden Kollisionen beim Zugriff auf den Bus
-    überlastet werden, sollte die Anzahl der interagierenden Knoten zu hoch sein \cite{Bosch}. Besonders gut geeignet sind derartige Systeme für unerwartete Ereignisse,
-    welche idealerweise ohne Latenz im Vergleich zu zeitgesteuerten Systemen übertragen werden können \cite{Bosch}. Beispielhaft hierfür sind jegliche Interaktionen eines 
-    Fahrzeugführers mit dem System. Bei erhöhten Anforderungen bezüglich der Sicherheit und Zuverlässigkeit eines Systems bieten sich wiederum zeitgesteuerte Systeme an \cite{Bosch}.
+    überlastet werden, sollte die Anzahl der interagierenden Knoten zu hoch sein \cite{reif2011bosch}. Besonders gut geeignet sind derartige Systeme für unerwartete Ereignisse,
+    welche idealerweise ohne Latenz im Vergleich zu zeitgesteuerten Systemen übertragen werden können \cite{reif2011bosch}. Beispielhaft hierfür sind jegliche Interaktionen eines 
+    Fahrzeugführers mit dem System. Bei erhöhten Anforderungen bezüglich der Sicherheit und Zuverlässigkeit eines Systems bieten sich wiederum zeitgesteuerte Systeme an \cite{reif2011bosch}.
     Elektronische Brems- und Lenksysteme benötigen derartige zeitliche Zusicherungen.
     \subsection{Technologie}
     Nachdem wir einige grundsätzliche Aspekte und Terminologien bezüglich der Vernetzung und Kommunikation betrachtet haben, geben wir im folgenden einen kurzen Überblick
@@ -78,16 +79,16 @@ einen Überblick über die Topologie, Technologien und Netzwerkprotokolle, sowie
                 CAN ist ein asynchroner serieller Bus Standard, welcher Steuergeräte, Sensoren und Aktoren zu einem System verbindet. Es handelt sich um ein 
                 Multi-Master-Kommunikationsprotokoll welches für Datenintegrität und Automobilapplikationen mit Datenraten von 1 MB/s geschaffen wurde. Vorteile
                 dieser Technologie sind die geringen Kosten und hohe Zuverlässigkeit. Eingeschränkt ist die Technologie durch die geringe Bandbreite, weshalb Sie
-                ungeeignet für Unterhaltung und Medienstreams ist \cite{IVN}.
+                ungeeignet für Unterhaltung und Medienstreams ist \cite{TW_huang2018vehicle}.
                 \item LIN (Local Interconnect Network): LIN ist ein asynchrones, single-master, multi-slave Netzwerkprotokoll, welches in Hinblick auf Kostenersparnis 
                 designed wurde. Eingesetzt wird LIN vorallem für Low-Speed-Kommunikation und stellt eine kosteneffiziente Alternative dar um Motor und Sensoren innerhalb 
                 eines Fahrzeugs zu verbinden. Typischerweise kommt es bei der Elektronik des Innenraums, wenn die Bandbreite von CAN nicht benötigt wird, wie z.B bei Türheber
-                oder der Sitzanpassung zum Einsatz \cite{IVN}.
+                oder der Sitzanpassung zum Einsatz \cite{TW_huang2018vehicle}.
                 \item Flexray: Flexray wurde als eine schnellere, zuverlässige aber auch teurere Alternative zu CAN entwickelt. Es handelt sich um ein Kommunikationsprotokoll mit einer
                 Dual-Channel Datenrate von bis zu 10 MB/s für komplexere Kontrollsysteme innerhalb eines Fahrzeugs. Über die Dual-Channel Architektur kann die Zuverlässigkeit
-                bei Anwendungen wie Brake-By-Wire gewährleistet werden \cite{IVN}. 
+                bei Anwendungen wie Brake-By-Wire gewährleistet werden \cite{TW_huang2018vehicle}. 
                 \item MOST (Media Oriented Systems Transport): MOST ist eine High-Speed Netzwerk Spezifikation welche speziell für Übertragung von Medien wie Audio und Videosignalen 
-                geschaffen wurden. Es handelt sich dabei um einen seriellen Bus welcher eine Ringtopologie verwendet \cite{IVN}.
+                geschaffen wurden. Es handelt sich dabei um einen seriellen Bus welcher eine Ringtopologie verwendet \cite{TW_huang2018vehicle}.
                 \item Ethernet: Als Standardtechnologie für drahtgebundene lokale Netzwerke spielt Ethernet eine kritische Rolle bei jeglicher Art von Kommunikation.
                 Vorteile von Ethernet als Mittel zur Vernetzung gegenüber bereits genannten Technologien ist die deutlich höhere Bandbreite, Skalierbarkeit und Flexibilität \cite{IVN}. 
             \end{itemize}
@@ -98,13 +99,13 @@ einen Überblick über die Topologie, Technologien und Netzwerkprotokolle, sowie
             \begin{itemize}
                 \item WLAN: Der Standard IEEE 802.11 wurde als drahtlose Alternative zu kabelgebunden High-Speed
                 Netzwerken geschaffen. Auch im Automobil kann WLAN genutzt werden um persönliche Geräte wie Smart Phones,
-                Tablets und Laptop mit dem Unterhaltungssystem des Fahrzeugs zu verbinden \cite{IVN}. 
+                Tablets und Laptop mit dem Unterhaltungssystem des Fahrzeugs zu verbinden \cite{TW_huang2018vehicle}. 
                 \item Bluetooth: Bluetooth wurde für drahtlose Kurzstrecken-Kommunikation designed. Optimiert wurde die
                 Technologie für Audiostreams und ist idealerweise für drahtlose Lautsprecher eines mobilen Audiosystems geeignet.
                 Auch händefreies Telefonieren über eine Verbindung zum Smart-Phone ist bereits im Großteil der modernen Fahrzeuge 
                 über Bluetooth möglich. BLE (Bluetooth Low Energy 4.0) ermöglicht Verbindungen mit geringer Latenz, hoher Zuverlässigkeit
                 und geringem Energieverbrauch, weshalb der Einsatz dieser Technologie zur Verbindung von Sensornetzwerken und ECUs im Innenraum, 
-                dem Antriebsstrang und Fahrwerk denkbar wären. Für kritische Systeme wie Brems- und Lenksysteme bleibt der Einsatz jedoch bedenklich \cite{IVN}.
+                dem Antriebsstrang und Fahrwerk denkbar wären. Für kritische Systeme wie Brems- und Lenksysteme bleibt der Einsatz jedoch bedenklich \cite{TW_huang2018vehicle}.
                 \item UWB (Ultra-Wideband): UWB ist eine Radiowellen Technologie für kurze Entfernung und hohe Bandbreite, welche als Alternative zu Wifi und Bluetooth gesehen werden kann.
                 \item Zigbee: Zigbee ist ein kabelloser Standard, welcher auf dem Standard 802.15.4 beruht und Geräte mit geringerem Datendurchsatz und niedrigem Energieverbauch in einem 
                 Mesh-Netzwerk verknüpft. Die Datenraten reichen bis zu 250 KB/s. Zigbee kann genutzt werden um ECUs, Sensoren und Aktoren in einem Fahrzeug zu verbinden.
@@ -113,20 +114,20 @@ einen Überblick über die Topologie, Technologien und Netzwerkprotokolle, sowie
     Mit dem Einzug einer Vielzahl neuer Systeme für die Unterhaltung, Navigation, On-Board Diagnostik,
     Augmented Reality (AR) Dashboards oder etwa Fahrassistenzsysteme finden wir in aktuellen Top-Modellen bereits 
     ca. 70 ECUs \cite{ivn quellen}. Mit steigender Anzahl und zunehmender Komplexität 
-    benötigen diese ECUs eine größere Bandbreite und geringere Latenz des internen Netzwerks \cite{in vehivle networking}.
+    benötigen diese ECUs eine größere Bandbreite und geringere Latenz des internen Netzwerks \cite{TW_huang2018vehicle}.
     Das Gesamtsystem lässt sich hierbei in die 4 Bereiche Powertrain, Chassis, Innenraum und Telematik unterteilen.
         \subsubsection{Powertrain}
         Der Antriebsstrang umfasst alle Komponenten welche für die Leistungserzeugung für den Antrieb verantwortlich sind. Dies umfasst 
         den Motor, Getriebe, Antriebswelle, Räder etc. Von Relevanz sind hierbei etwa die Engine Control Unit oder das Powertrain Control Module.
         Auch Sensoren und Aktoren, etwa zur Erhebung und Regulation von Geschwindigkeit, Drehzahl, Öl-Stand, Zylinderdruck, Position, Stabilität sind hierbei miteinbegriffen \cite{IVN}.
-        Im Bereich des Antriebstrangs stehen Echtzeitanwendungen im Vordergrund \cite{Bosch}.
+        Im Bereich des Antriebstrangs stehen Echtzeitanwendungen im Vordergrund \cite{reif2011bosch}.
         \subsubsection{Chassis}
         Das Fahrwerk umfasst alle Komponenten welche den Antriebsstrang und die Karosserie tragen. Bekannte Komponenten sind etwa
         Bremsen, Lenkung und Federung. Hier finden wir eine Vielzahl von Sensoren und Aktoren etwa für das ABS (Anti-Blockier-System) und ESP (Electronic Stability Program).
         Wie auch beim Antriebsstrang sind hohe Datenraten für das gewünschte Echtzeitverhalten nötig.
         \subsubsection{Innenraum}
         Der Innenraum setzt sich aus einer Reihe von Teilsystemen zusammen. Hierzu gehören die meisten Komfort-Systeme wie etwa Klimaregelung, Sitz- und Spiegelanpassung, Fensterheber, Beleuchtung,
-        Anzeige, Scheibenwischer aber auch Zugangsberechtigung und Diebstahlwarneinrichtung \cite{Bosch}. 
+        Anzeige, Scheibenwischer aber auch Zugangsberechtigung und Diebstahlwarneinrichtung \cite{reif2011bosch}. 
         Diese benötigen meist nur eine geringe Bandbreite und haben eine hohe Toleranz für zeitliche Verzögerungen.
         \subsubsection{Telematik und Infotainment}
         Dieses Teilsystem umfasst alle Schnittstellen zur Interaktion zwischen Mensch und verbauter Elektronik. So können etwa Informationen welche über Sensoren
@@ -137,7 +138,7 @@ einen Überblick über die Topologie, Technologien und Netzwerkprotokolle, sowie
     Aufgrund der unterschiedlichen Anforderungen der Teilsysteme eines Fahrzeugs, etwa an Echtzeitverhalten, Zuverlässigkeit und Fehlertoleranz werden unterschiedliche Technologien
     und Netzwerktopologien mit angemessenen Vor- und Nachteilen verwendet. Da diese Technologien meist nicht kompatibel zueinander sind, können Daten nicht ohne Weiteres zwischen diesen
     Teilsystemen ausgetauscht werden. In der Regel ist hierbei ein Gateway zwischengeschaltet, welches Daten eines Protokolls einliest und das Format entsprechend des Zielsystems anpasst
-    und weitersendet \cite{Bosch}. Hierbei kann ein zentrales (Abb x) oder aber mehrere verteilte Gateways (Abb y) genutzt werden. 
+    und weitersendet \cite{reif2011bosch}\cite{TW_kim2014gateway}. Hierbei kann ein zentrales (Abb x) oder aber mehrere verteilte Gateways (Abb y) genutzt werden. 
     In Abb x sehen wir einen beispielhaften Aufbau eines internen Netzwerks, verknüpft über ein zentrales Gateway. Aufgrund der Echtzeitanforderungen und Zuverlässigkeit wird in diesem Fall Flexray
     im Chassis Teilsystem verwendet. Die Steuergeräte des Antriebsstrangs sind wiederum über ein CAN Bus der Klasse C (High-Speed-CAN) verbunden. Das System des Innenraums verwendet in diesem Fall 
     CAN-B (Low-Speed-CAN), da die Echtzeitanforderung bei den Komfortfunktionen entfällt. Im Bereich der Telematik wird aufgrund der benötigten Bandbreite MOST eingesetzt. Einzelne Systeme welche die
