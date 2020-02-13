@@ -1,18 +1,13 @@
-
-\documentclass{article}
-\usepackage{graphicx}
-\usepackage[utf8]{inputenc}
-\begin{document}
+\graphicspath{{./Images/Kapitel5/}}
 	\section{Sensoren}
-	
 		\subsection{Übersicht} 
 		
 		In der vorliegenden Grafik werden sämtliche Sensoren aufgezeigt:
-			\begin{center}
-					\includegraphics[width=15cm, height=11cm] {Images/Kapitel5/sensor_uebersicht.png}
+			\begin{figure}
+				\centering
+				\includegraphics[width=15cm, height=11cm] {Images/Kapitel5/sensor_uebersicht.png}
 				\caption{\cite{TS01}: Übersicht der Sensoren im Automobil}
-	
-			\end{center}
+			\end{figure}
 			
 			\begin{flushleft}	
 			
@@ -27,44 +22,44 @@
 				\subsubsection{Arten}
 				In folgender Tabelle sind diversen Arten von Sensoren aufgelistet:
 				
+				\begin{table}
+			
 				\begin{tabular}{c|c|c|c}
 					
-					\hline
 					\textbf {Sensorart} & \textbf{Messtechnik} & \textbf {Beispiele} & \textbf{Erfassungsart}\\
 					\hline
 					
 					Resistiv & Eletrische Widerstandsänderung & Dehnungsmessstreifen \\
 					& Potentiometrische Sensoren &  mechanisch\\
-					
-					
+										
 					\hline
 					Induktiv & Änderung der Induktion & Schwingungsaufnehmer \\
 					&& Induktivaufnehmer & nicht mechanisch\\
-					\hline
 					
+					\hline
 					Wirbelstrom & Änderung des Wirbelstroms & Induktive Initiatoren & nicht mechanisch\\
-					\hline
 					
+					\hline
 					Magnetfeld & Änderung des Magnetfelds & Hall-Generator\\
 					& Feldplatte & nicht mechanisch\\
-					\hline
 					
+					\hline
 					Kapazitiv & Kapazitätsänderung & Drucksensor\\
 					& kapazitiver Näherungsschalter & mechanisch\\
-					\hline
 					
+					\hline
 					Optoelektisch & Opto-elektrische Unsetzung & Fototransistor\\
 					& Fotodiode & nicht menchanisch \\
-					\hline
 					
+					\hline
 					Temperatur & Kontaktthermometrie & Thermoelement\\
 					& Widerstandsthermometer & mechanisch\\
-					\hline}
-								
+										
+							
 					\end{tabular}
-					\\
+				\caption{ \cite{TS02}: Tabelle zur Einteilung von Sensoren}		
+				\end{table}
 
-					\caption{ \cite{TS02}: Tabelle zur Einteilung von Sensoren}\\
 				
 					\begin{flushleft}				
 						Der Sensor erfasst also diverse physikalische Größen und durch die oben beschriebene Verfahren werden diese analog erfassten in analog- elektrische Strom-/ Spannungssignale umgewandelt.
@@ -125,14 +120,14 @@
 					nicht-mechanischen, aktiver 
 					Sensor, welcher die Temperatur 
 					erfasst.\\
-					Die Sensoren sind auf einen Messbereich zwischen -40°C und +200°C skaliert ist. Ist die Temperatur über diesem Bereich werden spezielle Hochtemperatursensoren (HTS) verwendet.
+					Die Sensoren sind auf einen Messbereich zwischen -40$^\circ$C und +200$^\circ$C skaliert ist. Ist die Temperatur über diesem Bereich werden spezielle Hochtemperatursensoren (HTS) verwendet.
 				\end{flushleft}
 
-				\begin{center}
-					\includegraphics[width=5cm, height=4cm] {Images/Kapitel5/ntc.png}
-					\caption{\\\cite{TS04}: Abbildung: NTC}
-				\end{center}
-				\\
+				\begin{figure}
+					\centering
+					\includegraphics[width=5cm, height=4cm] {ntc.png}
+					\caption{\cite{TS04}: Abbildung: NTC}
+				\end{figure}
 			
 				\begin{flushleft}
 						In der folgenden Abbildung wird der Aufbau eines Temperatursensors. Hierbei werden zwei unterschiedlich, elektrisch aufgeladene Metalle am Ende (der Messstelle) miteinander verbunden. Hier wird die Temperatur von dem zu messenden Element gemessen.\\
@@ -140,13 +135,14 @@
 						
 				\end{flushleft}
 					
-				\begin{center}
-					\includegraphics[width=12cm, height=6cm] {Images/Kapitel5/aufbau_ntc.png}
-					\caption{\\\cite{TS06}: Abbildung: Aufbau NTC}
-				\end{center}
+				\begin{figure}
+					\centering
+					\includegraphics[width=12cm, height=6cm] {aufbau_ntc.png}
+					\caption{\cite{TS06}: Abbildung: Aufbau NTC}
+				\end{figure}
 				
 				\begin{flushleft}
-					\\	
+					
 					NTC Sensoren werden beispielsweise in folgenden Modulen angewandt:
 					
 					\begin{itemize}
@@ -155,7 +151,7 @@
 						\item Klimaanlagen
 						\item Kühlwassertemperatur 	
 					\end{itemize}
-					\\
+					
 					HTS hingegen werden für:
 
 					\begin{itemize}
@@ -177,12 +173,13 @@
 					Eine Spule wird von Strom durchflossen, welche daraufhin ein Magnetfeld erzeugt.\\	
 			
 				\end{flushleft}		
-			\\
-				\begin{center}
-					\includegraphics[width=5cm, height=5cm] {Images/Kapitel5/induktiv.png}
-					\caption{\\\cite{TS07}: Abbildung: Induktiver Sensor}
-				\end{center}
-			\\
+			
+				\begin{figure}
+					\centering
+					\includegraphics[width=5cm, height=5cm] {induktiv.png}
+					\caption{\cite{TS07}: Abbildung: Induktiver Sensor}
+				\end{figure}
+			
 			
 				\begin{flushleft}
 					In der Abbildung TS09 ist der Sensor über einer Art Zahnrad, welches man Impulsrad nennt, angebracht.\\
@@ -192,15 +189,14 @@
 			
 			
 		
-				\begin{center}
-					\includegraphics[width=7cm, height=7cm] {Images/Kapitel5/aufbau_induktiv.png}
-					\caption{\\\cite{TS09}: Abbildung: Induktiver Sensor}
-				\end{center}
+				\begin{figure}
+					\centering
+					\includegraphics[width=7cm, height=7cm] {aufbau_induktiv.png}
+					\caption{\cite{TS09}: Abbildung: Induktiver Sensor}
+				\end{figure}
 				
 				\begin{flushleft}
 					1 Dauermagnet, 2 Induktivgebergehäuse, 3 Motorgehäuse, 4 Weicheisenkern, 5 Induktionswicklung 6 Luftspalt, 7 Zahnlücken\\
-					\\
-					\\
 					Induktive Sensoren werden beispielsweise in folgenden Modulen angewandt:
 					
 					\begin{itemize}
@@ -241,23 +237,23 @@
 							 Durch das Einlenken des Fahrers wird der Torisonsstab ebenfalls verdreht. "Diese Verdrehung ist ein Maß für das Lenkmoment."\cite{TS12}\\
 							 Durch gezieltes Aufbringen von Widerständen können die Drehbewegungen registriert werden. Durch das Drehen, also spannen oder stauchen der Feder ( Fahrer lenkt links bzw rechts ein) verändert sich das Megnetfeld, welches wiederum den elektrischen Widerstand verändert und somit ein die Spannung. Diese Spannungssignale werden über die Signalleitungen an das Steuergerät übersendet, welches aus den Informationen die aufzubringende Unterstützungsmomente berechnen kann.
 										 
-							\begin{center}
-								\includegraphics[width=7cm, height=6cm] {Images/Kapitel5/lenkdrehmomentsensor.png}
-								\caption {\\\cite{TS13}: Abbildung: magnetoresistives Prinzip}
-							\end{center}			 
-							\\
-							 
-	
+							\begin{figure}
+								\centering
+								\includegraphics[width=7cm, height=6cm] {lenkdrehmomentsensor.png}
+								\caption {\cite{TS13}: Abbildung: magnetoresistives Prinzip}
+							\end{figure}			 
+								
 					\item 2. Optisches Prinzip:\\
 							Vor und hinter dem Torsionsstab ist jeweils eine Scheibe angebracht, welche eine bestimmte Codierung mittels eingelassenen Löchern haben.\\
 							Zur Bestimmung der Einlenkgeschwindigkeit wird axial und parallel zu dem Torsionsstab eine Leuchtdiode (über der ersten Scheibe) und eine Fotodiode (unter der zweiten Scheibe) angebracht. \\
 							Hierbei sendet die Leuchtdiode ein gebündeltes Licht aus, welches auf der gegenüberliegenden Seite von der Fotodiode erkannt wird. Bei einfallendem Licht verändert sich der durchfließende elektrische Strom durch die Fotodiode.\\
 							Dreht sich also die Scheibe kommt es zu einem Wechsel der Stromstärke. Diese Impulse werden an das angebundene Steuergerät gesendet, welches aus diesen empfangenden Informationen die Berechnungen durchführt.\\
 							
-							\begin{center}
-								\includegraphics[width=7cm, height=6cm] {Images/Kapitel5/photoelektrisch.png}
- 								\caption {\\\cite{TS14}: Abbildung: photooptisches Prinzip}
-							\end{center}	
+							\begin{figure}
+								\centering
+								\includegraphics[width=7cm, height=6cm] {photoelektrisch.png}
+ 								\caption {\cite{TS14}: Abbildung: photooptisches Prinzip}
+							\end{figure}	
 
 				\end{itemize}
 
@@ -268,19 +264,21 @@
 				Befinden sich nun Wassertropfen in dem Bereich des Sensors auf der Frontscheibe wird durch den dort sich drauf befindlichen Wassertropfen das ausgesendete Lichtbündel nicht komplett reflektiert, sondern ein Teil des Lichtes wird gebrochen und durch den Tropfen gestreut. Das Resultat daraus ist, dass der ausgesendete Lichtstrahl nur noch mit einem Bruchteil der ursprünglichen Stärke den Sensor erreicht.\\
 				Aus diesen Daten errechnet die dort darin befindliche Elektronik die Stärke des Niederschlages, gibt diese an ein Steuergerät weiter, welches wiederum die Scheibenwischer ansteuert. Somit bleibt die Oberfläche des Sensors immer tropfenfrei und es wird ein optimales Messergebnis erreicht.
 				
-				\begin{center}
-					\includegraphics[width=10cm, height=8cm] {Images/Kapitel5/regensensor.png}
-					\caption {\\\cite{TS16}: Abbildung: Regensensor Prinip}
-				\end{center}	
+				\begin{figure}
+					\centering
+					\includegraphics[width=10cm, height=8cm] {regensensor.png}
+					\caption {\cite{TS16}: Abbildung: Regensensor Prinip}
+				\end{figure}	
 			
 			\subsubsection{Seitenwandtorsionssensor}
 				Im Folgenden Abschnitt wird der Seitenwandtorsionssensor mit SWT ( engl.: Sidewall Torsion Sensor) abgekürzt.\\ 
 				Elektronische Regelsysteme wie ABS oder ESP benötigen sämtliche Informationen über das Zusammenspiel zwischen Fahrzeug und dem Fahruntergrund und den daraus entstehenden Kräften. Um die einzelnen Sekundärgrößen wie Motorleistung, Bremsdruck, Radgeschwindigkeit und Fahrzeugbeschleunigung zur Berechnung nicht mehr benutzen zu müssen, wurde von Continental ein Sensorsystem entwickelt, welches das Rad als Sensor fungieren lässt, das sogenannte SWT-System.
 				
-				\begin{center}
-					\includegraphics[width=10cm, height=7.5cm] {Images/Kapitel5/swt1.png}
-					\caption {\\\cite{TS17}: Abbildung: Reifen als Sensor}
-				\end{center}\\
+				\begin{figure}
+					\centering
+					\includegraphics[width=10cm, height=7.5cm] {swt1.png}
+					\caption {\cite{TS17}: Abbildung: Reifen als Sensor}
+				\end{figure}
 			
 				Der Reifen besteht aus Magnetgummi und den Magnetfeldsensoren, sowie einem Signalaufbereitungssystem und einer zentralen Recheneinheit.\\
 				Um die Funktionsweise verstehen zu können müssen erst einige Begriffe erörtert werden:
@@ -292,10 +290,11 @@
 					\item Querkräfte: Die Kräfte, welche "[...]quer zur Fahrrichtung wirken un dbei Kurvenfahrt auftreten[...].\cite{TS18} Wird oftmals auch als Seitenkraft (S) bezeichnet.
 					\item Verformung: Der Reifen wird durch die einwirkenden Kräfte aus seiner ursprünglichen Form gebracht und somit verformt sich dieser. Nachdem die einwirkende Kraft nachlässt, formt sich der Reifen wieder zurück in eine ursprüngliche Form.
 					
-					\begin{center}
-						\includegraphics[width=5cm, height=7cm] {Images/Kapitel5/l_qkraft.png}
-						\caption {\\\cite{TS19}: Abbildung: Zusammenspiel zwischen Längs- und Querkraft}
-					\end{center}\\
+					\begin{figure}
+						\centering
+						\includegraphics[width=5cm, height=7cm] {l_qkraft.png}
+						\caption {\cite{TS19}: Abbildung: Zusammenspiel zwischen Längs- und Querkraft}
+					\end{figure}
 					
 					\begin{flushleft}
 						Hierbei ist der gelbe Pfeil (L) die Längskraft, also die Beschleunigung des Fahrzeuges.
@@ -318,16 +317,19 @@
 			\subsubsection{Reifensensor}
 				Ein in den Reifenprofil eingebetteter Chip überträgt hochfrequent die Signale an eine im Radkasten befindliche Antenne und wird von dieser ausgelesen. Ändert sich der Zustand der Straße verändert der Sensor das Signal. Dies geschieht pro Sekunde mehrere Male. Darüberhinaus kontrolliert der Sensor permanent den Reifendruck. Mit diesen Informationen kann nicht nur die Lebensdauer des Reifens, sondern auch die Sicherheit erhöht werden, da sich gezielt ABS und ESP einschalten.\\
 				
-				\begin{center}
-					\includegraphics[width=7cm, height=5cm] {Images/Kapitel5/reifensensor.png}
-					\caption {\\\cite{TS19}: Abbildung: Einpflanzung des Chips in den Reifen}
-				\end{center}\\
+				\begin{figure}
+					\centering
+					\includegraphics[width=7cm, height=5cm] {reifensensor.png}
+					\caption {\cite{TS19}: Abbildung: Einpflanzung des Chips in den Reifen}
+				\end{figure}
 			
 			
 			\subsubsection{Reifendrucküberwachungssystem(RDKS)}
 				RDKS (engl.: TMPS (Tire Pressure Monitoring System)) wird eingesetzt, um die Lebensdauer des Reifens zu erhöhen. Am 1. November 2014 die Reifen- und Autohersteller verpflichtet, ein RKDS zu implementieren. Hierbei wird jeder Reifen mit einem Sensor ausgestattet, damit der Fahrer Luftverlust des Reifens oder gar einen Plattfuß bemerken kann.\\
 				Hierbei gibt es zwei Ausführungen:
 				
+				\begin{table}
+					
 				\begin{tabular}{c|c|c}
 					
 					\textbf {  } & \textbf{Passiv} & \textbf {Aktiv}\\
@@ -346,7 +348,8 @@
 					\hline
 				
 				\end{tabular}
-				\caption{ \cite{TS22}: Tabelle Eingleiderung Aktiv und Passiv}\\	
+			\caption{ \cite{TS22}: Tabelle Eingleiderung Aktiv und Passiv}
+			\end{table}	
 			
 			
 				\begin{flushleft}
@@ -355,10 +358,11 @@
 					
 				\end{flushleft}	
 				
-				\begin{center}
-					\includegraphics[width=7cm, height=5cm] {Images/Kapitel5/rdks.png}
-					\caption {\\\cite{TS23}: Abbildung: Einpflanzung des Chips in den Reifen}
-				\end{center}\\
+				\begin{figure}
+					\centering
+					\includegraphics[width=7cm, height=5cm] {rdks.png}
+					\caption {\cite{TS23}: Abbildung: Einpflanzung des Chips in den Reifen}
+				\end{figure}
 				
 			\subsubsection{Hallsensor}
 				Einsatz von dem Hallsensor sind: 
@@ -369,24 +373,26 @@
 					\item aktiver Drehzahlsensor in ABS- Bremsanlagen
 					\item Nockenwelle (Koordination von Eispritzbeginnberechnung oder Pumpe-Düse, sowie Klopfregelung)
 				\end{itemize}
-				\\
+				
 				Am letzteren wird im Folgenden die Funktion des Sensors beschrieben.\\
 				Die Nockenwelle bringt einen aus ferromagnetischem Material angefertigten Rotor zum Drehen. Zwischen Rotor und einem Dauermagnet befindet sich der Sensor. Durch den Dauermagneten wird ein Magnetfeld erzeugt, welches den Sensor senkrecht durchfließt. Passiert ein metallischer Gegenstand, beispielsweise ein Zahn der Nockenwelle, verändert dieser das Magnetfeld, welches den Sensor durchfließt.
 				Elektronen werden senkrecht zum Magnetfeld stärker abgelenkt, wobei eine Hall-Spannung von mehreren Millivolt erzeugt. Eine integrierte Auswerteelektronik bereitet das Signal auf und leitet es an in Form eines Rechtecksignals an das Steuergerät geleitet.\\\cite{TS24}
 				
-				\begin{center}
-					\includegraphics[width=7cm, height=5cm] {Images/Kapitel5/hall.png}
-					\caption {\\\cite{TS25}: Abbildung: Aufbau des Hall- Sensors}
-				\end{center}\\
+				\begin{figure}
+					\centering
+					\includegraphics[width=7cm, height=5cm] {hall.png}
+					\caption {\cite{TS25}: Abbildung: Aufbau des Hall- Sensors}
+				\end{figure}
 			
 			
 			\subsubsection{Rad- Drehzahlsensor}
 			
 				Dieser Sensor arbeitet auf dem Hall- Prinzip
-				\begin{center}
-					\includegraphics[width=7cm, height=5cm] {Images/Kapitel5/radsensor.png}
-					\caption {\\\cite{TS26}: Abbildung: Aufbau des Sensors}
-				\end{center}\\
+				\begin{figure}
+					\centering
+					\includegraphics[width=7cm, height=5cm] {radsensor.png}
+					\caption {\cite{TS26}: Abbildung: Aufbau des Sensors}
+				\end{figure}
 			
 				\begin{flushleft}
 					Durch drei entsprechend angeordneten Sensoren kann die Drehrichtung des Rades erkannt werden. Ein entsprechend angeordneter Magnet (siehe Bild) ersetzen hierbei die Funktion der mechanischen Zahnräder.\\
@@ -395,10 +401,11 @@
 					
 				\end{flushleft}
 
-				\begin{center}
-					\includegraphics[width=7cm, height=5cm] {Images/Kapitel5/signalverlauf_hall.png}
-					\caption {\\\cite{TS28}: Abbildung: Signalverlauf des Sensors}
-				\end{center}\\
+				\begin{figure}
+					\centering
+					\includegraphics[width=7cm, height=5cm] {signalverlauf_hall.png}
+					\caption {\cite{TS28}: Abbildung: Signalverlauf des Sensors}
+				\end{figure}
 
 			\subsubsection{Lambdasonden}
 				Dies dient pinzipiel zum vollständingen und ordnungsgemäßen Verbrennen des Luft-Kraftstoffgemisches. Das Verhältnis zwischen Luft und Kraftstoff wird als Lambdawert (=$\lambda$)bezeichnet.\\
@@ -407,7 +414,7 @@
 				Zur Regelung der Gemischzusammensetzung wird die Abgaszusammensetzung mit Hilfe der Lambdasonde gemessen, welche erkennen, ob diese zu fettig oder zu mager sind. Es misst den Restsauerstoff, welcher nach der Verbrennung übrig bleibt. 			
 			
 				\begin{center}
-					\includegraphics[width=7cm, height=5cm] {Images/Kapitel5/lambdasonde.png}
+					\includegraphics[width=7cm, height=5cm] {lambdasonde.png}
 					\caption {\\\cite{TS30}: Abbildung: Messprinzip von Lambdasonde}
 				\end{center}\\
 			
@@ -438,15 +445,43 @@
 					Falls sich kein Objekt in der Nähe befindet wird auch kein Signal reflektiert und somit erkennt das Steuergerät, dass keine Kollision stattfinden kann.
 				
 					\begin{center}
-						\includegraphics[width=7cm, height=5cm] {Images/Kapitel5/ultraschall.png}
+						\includegraphics[width=7cm, height=5cm] {ultraschall.png}
 						\caption {\\\cite{TS33}: Abbildung: Darstellung Ultraschallsensor}
 					\end{center}\\
 					
 				
 				
 		\subsection{Smarte Sensoren} 
+			Unter smarten Sensoren versteht man, dass der eingebaute Sensor bereits schon eine eingebaute Recheneinheit und Logik integriert hat. Dieser kann neben dem eigentlichen Messen die eingelesenen Daten Verarbeiten und in diesem Zustand dem Steuergerät überreichen. Dies hat den Vorteil, dass das Steuergerät keine überflüssigen Rechenschritte abarbeiten muss und somit mehr Rechenleistung für das Reagieren auf besondere Ereignisse hat.\\
+			Diese können beispielsweise mitunter bei Feldbussystemen wie LIN, CAN, FLEX RAY eingesetzt werden.		
+		
+		
+		
 		\subsection{Zukunftsvisionen} 
- 
+ 			Durch das Weiterentwickeln der Sensortechnik können beispielsweise Unfälle vermieden werden, da der Sensor eine deutlich schnellere Reaktionszeit aufweisen als ein Mensch. Ein Beispiel wäre, das bestehende Positionssensorsystem durch eine neue Art der Messung zu ersetzte. Hierbei werden die Ultraschallsensoren durch so genannte Radarkameras ersetzt, welche einen deutlich weiteren Radius abdecken können, als die bisher herkömmlichen Sensoren.\\
+ 			
+ 			\begin{center}
+ 				\includegraphics[width=7cm, height=5cm] {Images/Kapitel5/radarsensor.png}
+ 				\caption {\\\cite{TS34}: Abbildung: Unterschied: Videokamera, Infrarotkamera und Radarkamera}
+ 			\end{center}\\
+
+			\begin{flushleft}
+							
+				Hier kann man eindeutig den Unterschied der Reichweiten der einzelnen Sensoren sehen.\\
+				\\
+				
+				Neben diesem Effekt kann man durch neue entwickelten Sensoren beispielsweise der Spritverbrauch und somit den Ausstoß an CO2 verringert werden.\\
+				Auch im Hinblick auf Elektromobilität wird es neue Sensoren geben, welche zur Überwachung der Batterie eingesetzt werden muss, Ansteuerung der Räder usw.
+				
+			\end{flushleft} 
+			
+
+
+
+\end{document}
+
+
+
 @Book{ 
 	Bosch [TS01] 
 	Konrad Reif: 		Sensoren im Kraftfahrzeug,
@@ -583,10 +618,10 @@ https://www.kfztech.de/kfztechnik/elo/sensoren/induktivgeber.htm\
 
 @Internet{ Information [TS33],
 	URL: https://www.bosch-presse.de/pressportal/de/media/migrated_media/pressegespr_ch_fahrerassistenz_2012/1-ae-17866-2.jpg}
+\\
 
+@Internet{ Information [TS34],
+	URL: https://www.leifiphysik.de/akustik/schallgeschwindigkeit/ausblick/ultraschall-beim-auto}
 
-
-
-\end{document}
 
 
