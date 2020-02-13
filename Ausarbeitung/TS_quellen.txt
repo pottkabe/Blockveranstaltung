@@ -1,13 +1,13 @@
 %TS Quellen
 
 @article{TS_sensor_aufteilen,
-	Autor={ITWissenl.info}
+	Autor={ITWissenl.info},
 	URL= {https://www.itwissen.info/lex-images/uebersicht-ueber-verschiedene-sensoren.png},
 	urldate={11. Februar 2020}
 }	
 
 @article{TS_sensoren,
-	Autor={ITWissenl.info}
+	Autor={ITWissenl.info},
 	URL= {https://www.itwissen.info/Sensor-sensor.html},
 	urldate={11. Februar 2020}
 }	
@@ -115,13 +115,13 @@
 
 @article{ TS_rdks,
 	Author= {Beru, Citroen, ContinentalTeves, Peugeot, Infineon/SensoNor, Siemens, Hella, TPM-Systems, Ventech, Nokian u.v.m.},
-	URL: {https://www.kfztech.de/kfztechnik/fahrwerk/reifen/rdks.htm},
+	URL= {https://www.kfztech.de/kfztechnik/fahrwerk/reifen/rdks.htm},
 	urldate={12. Februar 2020}
 }
 
 @article{ TS_rdks_pic,
 	Author= {Beru, Citroen, ContinentalTeves, Peugeot, Infineon/SensoNor, Siemens, Hella, TPM-Systems, Ventech, Nokian u.v.m.},
-	URL: {https://www.kfztech.de/kfztechnik/fahrwerk/reifen/rdks.htm},
+	URL= {https://www.kfztech.de/kfztechnik/fahrwerk/reifen/rdks.htm},
 	urldate={12. Februar 2020}
 }
 
