@@ -13,7 +13,7 @@
 			\begin{center}
 				\begin{figure}
 					\centering
-					\includegraphics[width=15cm, height=11cm] {Images/Kapitel5/sensor_uebersicht.png}
+					\includegraphics[width=15cm, height=11cm] {sensor_uebersicht.png}
 					\caption{\cite{TS01}: Übersicht der Sensoren im Automobil}
 				\end{figure}
 			\end{center}
@@ -70,43 +70,7 @@
 						\caption{ \cite{TS02}: Tabelle zur Einteilung von Sensoren}
 					\end{table}
 		
-				\begin{table}
-			
-				\begin{tabular}{c|c|c|c}
-					
-					\textbf {Sensorart} & \textbf{Messtechnik} & \textbf {Beispiele} & \textbf{Erfassungsart}\\
-					\hline
-					
-					Resistiv & Eletrische Widerstandsänderung & Dehnungsmessstreifen \\
-					& Potentiometrische Sensoren &  mechanisch\\
-										
-					\hline
-					Induktiv & Änderung der Induktion & Schwingungsaufnehmer \\
-					&& Induktivaufnehmer & nicht mechanisch\\
-					
-					\hline
-					Wirbelstrom & Änderung des Wirbelstroms & Induktive Initiatoren & nicht mechanisch\\
-					
-					\hline
-					Magnetfeld & Änderung des Magnetfelds & Hall-Generator\\
-					& Feldplatte & nicht mechanisch\\
-					
-					\hline
-					Kapazitiv & Kapazitätsänderung & Drucksensor\\
-					& kapazitiver Näherungsschalter & mechanisch\\
-					
-					\hline
-					Optoelektisch & Opto-elektrische Unsetzung & Fototransistor\\
-					& Fotodiode & nicht menchanisch \\
-					
-					\hline
-					Temperatur & Kontaktthermometrie & Thermoelement\\
-					& Widerstandsthermometer & mechanisch\\
-										
-							
-					\end{tabular}
-				\caption{ \cite{TS02}: Tabelle zur Einteilung von Sensoren}		
-				\end{table}
+				
 
 				\begin{flushleft}				
 						Der Sensor erfasst also diverse physikalische Größen und durch die oben beschriebene Verfahren werden diese analog erfassten in analog- elektrische Strom-/ Spannungssignale umgewandelt.
@@ -222,10 +186,7 @@
 				\end{flushleft}		
 			
 
-				\begin{center}
-					\includegraphics[width=5cm, height=5cm] {Images/Kapitel5/induktiv.png}
-					\caption{\\\cite{TS07}: Abbildung: Induktiver Sensor}
-				\end{center}
+
 				\begin{figure}
 					\centering
 					\includegraphics[width=5cm, height=5cm] {induktiv.png}
@@ -287,23 +248,17 @@
 							 Damit Leitungen zur Spannungsversorgung und Signalübertragung nicht beschädigt werden, sind diese in einer Vermantelung, welche auch als Wickelkassette bezeichnet wird.\\
 							 
 							 Durch das Einlenken des Fahrers wird der Torisonsstab ebenfalls verdreht. "Diese Verdrehung ist ein Maß für das Lenkmoment."\cite{TS12}\\
-							 Durch gezieltes Aufbringen von Widerständen können die Drehbewegungen registriert werden. Durch das Drehen, also spannen oder stauchen der Feder ( Fahrer lenkt links bzw rechts ein) verändert sich das Megnetfeld, welches wiederum den elektrischen Widerstand verändert und somit die über dem Widerstand anliegende Spannung. Diese Spannungssignale werden über die Signalleitungen an das Steuergerät übersendet, welches aus den Informationen die aufzubringende Unterstützungsmomente berechnen kann.
-										 
-							\begin{center}
-								\includegraphics[width=7cm, height=6cm] {Images/Kapitel5/lenkdrehmomentsensor.png}
-								\caption {\\\cite{TS13}: Abbildung: magnetoresistives Prinzip}
-							\end{center}			 
-							\\
-							 
-	
-					\item 2. Optisches Prinzip:
+							 Durch gezieltes Aufbringen von Widerständen können die Drehbewegungen registriert werden. Durch das Drehen, also spannen oder stauchen der Feder ( Fahrer lenkt links bzw rechts ein) verändert sich das Megnetfeld, welches wiederum den elektrischen Widerstand verändert und somit die über dem Widerstand anliegende Spannung. Diese Spannungssignale werden über die Signalleitungen an das Steuergerät übersendet, welches aus den Informationen die aufzubringende Unterstützungsmomente berechnen kann.				 
+
 							\begin{figure}
 								\centering
 								\includegraphics[width=7cm, height=6cm] {lenkdrehmomentsensor.png}
 								\caption {\cite{TS13}: Abbildung: magnetoresistives Prinzip}
 							\end{figure}			 
-								
-					\item 2. Optisches Prinzip:\\
+
+	
+					\item 2. Optisches Prinzip:
+
 							Vor und hinter dem Torsionsstab ist jeweils eine Scheibe angebracht, welche eine bestimmte Codierung mittels eingelassenen Löchern haben.\\
 							Zur Bestimmung der Einlenkgeschwindigkeit wird axial und parallel zu dem Torsionsstab eine Leuchtdiode (über der ersten Scheibe) und eine Fotodiode (unter der zweiten Scheibe) angebracht. \\
 							Hierbei sendet die Leuchtdiode ein gebündeltes Licht aus, welches auf der gegenüberliegenden Seite von der Fotodiode erkannt wird. Bei einfallendem Licht verändert sich der durchfließende elektrische Strom durch die Fotodiode.\\
@@ -388,29 +343,6 @@
 				RDKS (engl.: TMPS (Tire Pressure Monitoring System)) wird eingesetzt, um die Lebensdauer des Reifens zu erhöhen. Am 1. November 2014 die Reifen- und Autohersteller verpflichtet, ein RKDS zu implementieren. Hierbei wird jeder Reifen mit einem Sensor ausgestattet, damit der Fahrer Luftverlust des Reifens oder gar einen Plattfuß bemerken kann.\\
 				Hierbei gibt es zwei Ausführungen:
 				
-				\begin{table}
-					
-					\begin{tabular}{c|c|c}
-						
-						\textbf {  } & \textbf{Passiv} & \textbf {Aktiv}\\
-						
-						
-						\hline
-						\textbf{Erklärung:} & Platter Reifen hat einen kleineren Abrollumfang und dreht sich schneller.\\&ABS Sensoren messen dies und das Steuergerät erkennt dies & Jeder Reifen besitzt eigenen Sensor und sendet Informationen über Druck und Temperatur per Funkt an Steuergerät.\\
-						
-						
-						\hline
-						\textbf{Vorteil:} & kostengünstig, in Kombination mit Ruflat Tyre eine optimale Lösung, \\&da nur eine geänderte Software und Kontrolle erforderlich sind. & Exakte Messung und ab einer Differenz von 0,2 Bar wird ein Alarm ausgelöst. Reserverad wird mit überwacht.\\
-						
-						
-						\hline
-						\textbf{Nachteil:} & schleichender Luftverlust der Räder an einer Achse wird nicht erkannt.\\&Differenzen nur von größer 0,5 Bar werden nur während der Fahrt erkannt.\\&  Höherer Spritverbrauch durch zu niedrigen Luftdruck. & Teuer für Reifenmontage, da Reifen kodiert werden müssen und der Reifenwechsel aufwendig wird.\\
-						
-						
-					\end{tabular}
-					\caption{ \cite{TS22}: Tabelle Eingliederung Aktiv und Passiv}	
-				\end{table}
-
 				\begin{table}	
 					\begin{tabular}{c|c|c}
 						
@@ -431,7 +363,7 @@
 					
 					\end{tabular}
 				\caption{ \cite{TS22}: Tabelle Eingleiderung Aktiv und Passiv}
-			\end{table}	
+				\end{table}	
 			
 			
 				\begin{flushleft}
