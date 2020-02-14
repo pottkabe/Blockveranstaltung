@@ -4,10 +4,10 @@
 
 \subsection{Automotive Ethernet}
 \subsubsection{Anwendung}
-Für Ethernet im Automotive Bereich wird der Standard IEEE 802.3 verwendet. Trotz seiner hohen Beliebtheit und Verbreitung war Ethernet im Automotive Bereich lange Zeit undenkbar, vor allem da es keine Echtzeit erfüllen kann und für kleine Anwendungen zu teuer ist (siehe Abbildung "NR FEHLT"). Moderne Anwendungen (z.B. komplexere Assistenzsysteme, Diagnose- oder Multimedia-Anwendungen) fordern jedoch immer höhere Datenraten, so dass Ethernet immer mehr Beachtung bekommt. Es wurden auch Protokolle und Technologien entwickelt, um Ethernet besser an die Anforderungen anzupassen. Es gibt mit TimeTriggeredEthernet/SAE AS6802 einen echtzeitfähigen Ethernet Bus und durch Audio-Video-Bridging können komplexere Multi-Media-Anwendungen, z.B. Surround Sound oder synchrone Wiedergabe von Audio/Video-Dateien, realisiert werden. Um Kosten und Leitungen zu sparen wurde 100Base-T1 entwickelt, hier wird nur ein verdrillter Kupferdraht benutzt. \cite{.MH_Ethernet}
+Für Ethernet im Automotive Bereich wird der Standard IEEE 802.3 verwendet. Trotz seiner hohen Beliebtheit und Verbreitung war Ethernet im Automotive Bereich lange Zeit undenkbar, vor allem da es keine Echtzeit erfüllen kann und für kleine Anwendungen zu teuer ist. Moderne Anwendungen (z.B. komplexere Assistenzsysteme, Diagnose- oder Multimedia-Anwendungen) fordern jedoch immer höhere Datenraten, so dass Ethernet immer mehr Beachtung bekommt. Es wurden auch Protokolle und Technologien entwickelt, um Ethernet besser an die Anforderungen anzupassen. Es gibt mit TimeTriggeredEthernet/SAE AS6802 einen echtzeitfähigen Ethernet Bus und durch Audio-Video-Bridging können komplexere Multi-Media-Anwendungen, z.B. Surround Sound oder synchrone Wiedergabe von Audio/Video-Dateien, realisiert werden. Um Kosten und Leitungen zu sparen wurde 100Base-T1 entwickelt, hier wird nur ein verdrillter Kupferdraht benutzt. \cite{.MH_Ethernet}
 
 \subsubsection{Topologie}
-Ethernet wird im Automotive Bereich oft in der Stern- (siehe Abbildung "NR FEHLT"), Bus- (siehe Abbildung "NR FEHLT") oder Baumtopologie (siehe Abbildung "NR FEHLT") verwendet. Dies ist ein neuer Ansatz, da die meisten bisherigen Bussysteme nahezu nur auf die Stern- und Bustopologie setzen.
+Ethernet wird im Automotive Bereich oft in der Stern- (siehe Abbildung 4.1), Bus- (siehe Abbildung 4.2) oder Baumtopologie (siehe 4.3) verwendet. Dies ist ein neuer Ansatz, da die meisten bisherigen Bussysteme nahezu nur auf die Stern- und Bustopologie setzen.
 
 \cite{.MH_Vehicle}
 
@@ -15,15 +15,15 @@ Ethernet wird im Automotive Bereich oft in der Stern- (siehe Abbildung "NR FEHLT
 	\centering
 	\begin{subfigure}[b]{0.4\textwidth}
 		\includegraphics[width=\linewidth]{bus_topology.jpg}
-		\subcaption{Abbildung "NR FEHLT" \cite{.MH_Bus}}
-	\end{subfigure}
-	\begin{subfigure}[b]{0.4\textwidth}
-		\includegraphics[width=\linewidth]{tree_topology.jpg}
-		\subcaption{Abbildung "NR FEHLT" \cite{.MH_Tree}}
+		\subcaption[{https://2.bp.blogspot.com/-R-uihxzRU6g/WOIFGLjqtMI/AAAAAAAAEdg/X3YgTGUxQ8MSCbm14OsABMnhWUTK-Ee-gCLcB/s1600/bus_topology.jpg]{Abbildung 4.1}
 	\end{subfigure}
 	\begin{subfigure}[b]{0.4\textwidth}
 		\includegraphics[width=\linewidth]{stern_topology.jpg}
-		\subcaption{Abbildung "NR FEHLT" \cite{.MH_Star}}
+		\subcaption[http://slideplayer.org/slide/791365/2/images/3/Sternstruktur+(Ethernet+Twisted+Pair).jpg]{Abbildung 4.2}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.4\textwidth}
+		\includegraphics[width=\linewidth]{tree_topology.jpg}
+		\subcaption[http://units.folder101.com/cisco/sem1/Notes/ch2-topologies/tree.gif]{Abbildung 4.3}
 	\end{subfigure}
 	\caption{Ethernet Topologie}
 \end{figure}
@@ -55,7 +55,7 @@ Die asynchronen Kanäle sind für Daten reserviert, die nicht fortlaufend entste
 
 \begin{figure}[h!]
 	\includegraphics[width=\linewidth]{most_ring.jpg}
-	\caption{Abbildung 4.3 \cite{.MH_Ring}}
+	\caption[https://images.tecchannel.de/bdb/361603/840x473.jpg]{Abbildung 4.4}
 \end{figure}
 
 \subsubsection{Vor- und Nachteile}
@@ -80,7 +80,7 @@ Ein Scatternet ist ein Zusammenschluss von mehreren Piconets, bei dem jeweils ei
 
 \begin{figure}[h!]
 	\includegraphics[width=0.7\linewidth]{pico_scatternet.png}
-	\caption{Abbildung  \cite{.MH_Scatter}}
+	\caption[https://de.wikipedia.org/wiki/Scatternet#/media/Datei:BluetoothScatternet-de.svg]{Abbildung 4.5}
 \end{figure}
 
 \subsubsection{Vor- und Nachteile}
