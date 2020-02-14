@@ -198,6 +198,40 @@
 					\item es wird ein Fehlercode abgespeichert
 	            \end{itemize}
 	           
+	           
+	           \subsubsection{Drehzahlsensor}
+		           
+		           Durch drei entsprechend angeordnete Sensoren kann die Drehrichtung des Rades erkannt werden. Ein entsprechend angeordneter Magnet (Abbildung \ref{fig:TS10}) ersetzt hierbei die Funktion der mechanischen Zahnräder.\\
+		           \textbf{Aktive Sensoren}: Dieser wird bereits mit Spannung versorgt und erzeugt aus dem wechselnden Magnetfeld ein Rechtecksignal und sendet diese unverändert an ein Steuergerät.
+		           
+		           Dies ermöglicht ebenso eine Geschwindigkeitsmessung von 0.1km/h. Diese Werte kann man zum Beispiel für Einparksysteme oder Navigationssysteme benutzen.\cite{TS_drehzahl_sensor}
+		           (Abbildung \ref{fig:TS11})
+		           
+		           \begin{figure}[h]
+			           \begin{minipage}[b]{.4\linewidth} % [b] => Ausrichtung an \caption
+			           		\includegraphics[width=\linewidth]{radsensor.png}
+			           		\caption{Aufbau}
+			           		\label{fig:TS10}
+			           \end{minipage}
+			           	\hspace{.1\linewidth}% Abstand zwischen Bilder
+			           	\begin{minipage}[b]{.4\linewidth} % [b] => Ausrichtung an \caption
+			           		\includegraphics[width=\linewidth]{signalverlauf_hall.png}
+			           		\caption[www.kfztech.de/kfztechnik/elo/sensoren/drehzahlsensor.htm]{Signalverlauf}
+			           		\label{fig:TS11}
+			           	\end{minipage}
+		           	\end{figure}
+	           
+					Diese kommen beispielsweise bei:
+		           	\begin{itemize}
+		           		\item Getriebe und Motoric
+		           		\item Navigation
+		           		\item ESP
+		           		\item ABS
+		           		\item Überrollsensorierung
+		           	\end{itemize}
+					
+					zum Einsatz.	          		
+	          		
 	          
 	           \subsubsection{Luftmassenmesser}
 	           
@@ -350,29 +384,9 @@
 						\caption[www.kfztech.de/kfztechnik/elo/sensoren/hallsensor.htm]{Aufbau eines Hall-Sensors}
 	                \end{figure}
 	                
-	                \subsubsection{Drehzahlsensor}
-	
-					Durch drei entsprechend angeordnete Sensoren kann die Drehrichtung des Rades erkannt werden. Ein entsprechend angeordneter Magnet (Abbildung \ref{fig:TS10}) ersetzt hierbei die Funktion der mechanischen Zahnräder.\\
-	                \textbf{Aktive Sensoren}: Dieser wird bereits mit Spannung versorgt und erzeugt aus dem wechselnden Magnetfeld ein Rechtecksignal und sendet diese unverändert an ein Steuergerät.
 	                
-					Dies ermöglicht ebenso eine Geschwindigkeitsmessung von 0.1km/h. Diese Werte kann man zum Beispiel für Einparksysteme oder Navigationssysteme benutzen.\cite{TS_drehzahl_sensor}
-					(Abbildung \ref{fig:TS11})
 	
-	                \begin{figure}[h!]
-	                    \begin{minipage}[b]{.4\linewidth} % [b] => Ausrichtung an \caption
-	                       \includegraphics[width=\linewidth]{radsensor.png}
-	                       \caption{Aufbau}
-	                       \label{fig:TS10}
-	                    \end{minipage}
-	                    \hspace{.1\linewidth}% Abstand zwischen Bilder
-	                    \begin{minipage}[b]{.4\linewidth} % [b] => Ausrichtung an \caption
-	                       \includegraphics[width=\linewidth]{signalverlauf_hall.png}
-	                       \caption[www.kfztech.de/kfztechnik/elo/sensoren/drehzahlsensor.htm]{Signalverlauf}
-	                       \label{fig:TS11}
-	                    \end{minipage}
-	                 \end{figure}
-	
-	                 \subsubsection{Airbagsensor}
+				\subsubsection{Airbagsensor}
 	
 	                 Für das Auslösen des Airbags werden mehrere Frontsensoren verwendet, welche an diversen Stellen im Auto angebracht sind. Die Beschleunigungssensoren messen einwirkende Kräfte und geben ein Signal an das Steuergerät.
 	                 Damit der Airbag nicht fälschlicherweise geöffnet wird, muss ein Sicherheitssensor innerhalb des Steuergerätes dies bestätigen. 
