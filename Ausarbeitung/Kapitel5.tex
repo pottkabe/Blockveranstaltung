@@ -7,7 +7,7 @@
 			
 				\begin{figure}
 					\includegraphics[width=15cm, height=11cm] {sensor_uebersicht.png}
-					\caption{\cite{.BP01}: Übersicht der Sensoren im Automobil}
+					\caption{Übersicht der Sensoren im Automobil \cite{BP01}
 				\end{figure}	
 			
 			Für einen besseren Überblick werden in diesem Kapitel die Sensoren des Automobils begutachtet, aufgelistet und erläutert.	
@@ -22,7 +22,7 @@
 						\tiny{		
 							\begin{tabular} {c|c|c|c}
 								
-								\textbf {Sensorart} & \textbf{Messtechnik} & \textbf {Beispiele} & \textbf{Erfassungsart}\\
+								\textbf{Sensorart} & \textbf{Messtechnik} & \textbf{Beispiele} & \textbf{Erfassungsart}\\
 								\hline
 								
 								Resistiv & Eletrische Widerstandsänderung & Dehnungsmessstreifen \\
@@ -33,21 +33,14 @@
 								Induktiv & Änderung der Induktion & Schwingungsaufnehmer \\
 								&& Induktivaufnehmer & nicht mechanisch\\
 								\hline
-								
-								Wirbelstrom & Änderung des Wirbelstroms & Induktive Initiatoren & nicht mechanisch\\
-								\hline
-								
-								Magnetfeld & Änderung des Magnetfelds & Hall-Generator\\
-								&& Feldplatte & nicht mechanisch\\
+
 								\hline
 								
 								Kapazitiv & Kapazitätsänderung & Drucksensor\\
 								&& kapazitiver Näherungsschalter & mechanisch\\
 								\hline
 								
-								Optoelektisch & Opto-elektrische Umsetzung & Fototransistor\\
-								&& Fotodiode & nicht menchanisch \\
-								\hline
+
 								
 								Temperatur & Kontaktthermometrie & Thermoelement\\
 								&& Widerstandsthermometer & mechanisch\\
@@ -55,7 +48,7 @@
 							
 							\end{tabular}
 							}
-						\caption{ \cite{TS_sensor_aufteilen}: Tabelle zur Einteilung von Sensoren}
+						\caption{ \cite{TS01}: Tabelle zur Einteilung von Sensoren}
 					\end{table}
 					
 						Der Sensor erfasst also diverse physikalische Größen und durch die oben beschriebene Verfahren werden diese analog erfassten in analog- elektrische Strom-/ Spannungssignale umgewandelt.
@@ -187,11 +180,12 @@
 
 		
 			\subsubsection{Lenkdrehmomentsensor}
-				Um die Funktion des Servomoduls umsetzen zu können, benötigt das Steuergerät exakte Informationen über die vom Fahrer eingegebene Lenkbefehle. Um diese Eingabe richtig erfassen zu können, wurde ein Sensor konstruiert, welcher "[...]die erforderlichen Daten wie Drehwinkel, Drehrichtung und Drehmoment elektronisch erfassen.[...]"\cite{TS_dreh} kann und an das Steuergerät sendet.\\
+				Um die Funktion des Servomoduls umsetzen zu können, benötigt das Steuergerät exakte Informationen über die vom Fahrer eingegebenen Lenkbefehle. Um diese Eingabe richtig erfassen zu können, wurde ein Sensor konstruiert, welcher "[...]die erforderlichen Daten wie Drehwinkel, Drehrichtung und Drehmoment elektronisch erfassen.[...]"\cite{TS_dreh} kann und an das Steuergerät sendet.\\
 				Die Funktionsweise eines Drehmomentsensors kann durch zwei diverse Arten realisiert werden:\\
 				
 				\begin{enumerate}
-					\item Magnetoresistives Prinzip:
+					\item Magnetoresistives Prinzip:\\
+					
 							 Mittels Eingangswelle, Torsionsstab/ Drehstab (eine stabförmige Feder, welche sich in axialer Richtung drehen lässt), Antriebswelle und einem magnetoresisitem Element. \\
 							 Damit Leitungen zur Spannungsversorgung und Signalübertragung nicht beschädigt werden, sind diese in einer Vermantelung, welche auch als Wickelkassette bezeichnet wird.\\ (Fig. 6)
 							 
@@ -284,7 +278,7 @@
 			\subsubsection{Reifendrucküberwachungssystem(RDKS)}
 				RDKS (engl.: TMPS (Tire Pressure Monitoring System)) wird eingesetzt, um die Lebensdauer des Reifens zu erhöhen. Am 1. November 2014 die Reifen- und Autohersteller verpflichtet, ein RKDS zu implementieren. Hierbei wird jeder Reifen mit einem Sensor ausgestattet, damit der Fahrer Luftverlust des Reifens oder gar einen Plattfuß bemerken kann.\\
 				in der folgenden Tabelle (Table 2) sind prinzipiell zwei Ausführungen des Sensors aufgelistet:
-				
+		
 				\begin{table}	
 					\begin{tabular}{c|c|c}
 						
@@ -297,14 +291,14 @@
 						
 						\hline
 						\textbf{Vorteil:} & kostengünstig, in Kombination mit Ruflat Tyre eine optimale Lösung, \\&da nur eine geänderte Software und Kontrolle erforderlich sind. & Exakte Messung und ab einer Differenz von 0,2 Bar wird ein Alarm ausgelöst. Reserverad wird mit überwacht.\\
-						
+								
 	
 						\hline
 						\textbf{Nachteil:} & schleichender Luftverlust der Räder an einer Achse wird nicht erkannt.\\&Differenzen nur von größer 0,5 Bar werden nur während der Fahrt erkannt.\\&  Höherer Spritverbrauch durch zu niedrigen Luftdruck. & Teuer für Reifenmontage, da Reifen kodiert werden müssen und der Reifenwechsel aufwendig wird.\\
 						\hline
 					
 					\end{tabular}
-				\caption{ \cite{TS_rdks}: Tabelle Eingleiderung Aktiv und Passiv}
+				\caption{ \cite{TS_rdks}: Tabelle Eingliederung Aktiv und Passiv}
 				\end{table}	
 						
 				Die Reifenelektronik sitzt auf der Innenseite des Reifen und misst in kurzen definierten Zeitabständen Reifendruck und Temperatur. Jeder Sensor ist mit einer eigenen ID- Nummer ausgestattet. Per Funkt werden die Daten an die eigene Empfangsstation Datenpakete geschickt, welche die ID, sowie Druck und Temperatur des Reifens beinhalten. Dieses Empfangsgerät sendet die empfangenen Daten kabelgebunden weiter an das Steuergerät. Dieses wertet die Daten aus und sendet bei Bedarf, sprich Unter- oder Überschreitung einer der Daten, eine Meldung an die Kontrollanzeige. (Fig. 12)
