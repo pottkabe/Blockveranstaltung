@@ -10,12 +10,12 @@
     einem System mit Echtzeitgesteuerten Anwendungen.~\cite{LA_CAN1}
 
     Unter den Echtzeitgesteuerten Anwendungsgebieten befinden sich beispielhaft:
-    \begin{description}
-    \item[-] Steuerung der Kombiinstrument
-    \item[-] Fahrassistenzsysteme(ABS, ESP, etc.)
-    \item[-] Motormanagement
-    \item[-] Getriebesteuerung
-    \end{description}
+    \begin{itemize}
+    \item Steuerung der Kombiinstrumente
+    \item Fahrassistenzsysteme(ABS, ESP, etc.)
+    \item Motormanagement
+    \item Getriebesteuerung
+    \end{itemize}
     1992 wurde CAN, mit der Mercedes S-Klasse, erstmals der Öffentlichkeit zugänglich gemacht. 
     Seit 1995 ist CAN das am meisten verbreitete Bussystem in Automobilanwendungen.
  
@@ -57,14 +57,13 @@
         ~\cite{reif2011bosch}
     \end{itemize}
     \begin{center}
-    \begin{tabular}{p{5.5cm} p{5.5cm}}
-    \hline
-    Lowspeed-CAN & Highspeed-CAN\\
-    \hline
-    \hline - Klimaanlage & - Motormanagement\\
-    \hline - Sitzkontrolle & - Getriebesteuerung\\
-    \hline - Kilometerzähler & - Kombiinstrument\\
-    \hline - & - Fahrzeugdiagnose\\
+        \begin{tabular}{l|l}
+            \textbf{Lowspeed-CAN} & \textbf{Highspeed-CAN}\\
+
+    \hline  Klimaanlage & Motormanagement\\
+    \hline  Sitzkontrolle & Getriebesteuerung\\
+    \hline  Kilometerzähler & Kombiinstrument\\
+    \hline  & Fahrzeugdiagnose\\
     \hline
     \end{tabular}            
     \end{center}
@@ -87,26 +86,25 @@
         Wenn der Bus frei ist darf jeder Knoten senden. Wenn mehrere Knoten gleichzeitig schreibend auf 
         den Bus zugreifen, wird die Nachricht, der einer höheren ID zugeordnet ist, überschrieben. Jeder
         Knoten überprüft, bei jedem gesendeten Bit, ob dieses auf den Bus übertragen wurde. Liegt eine 
-        Diskrepanz vor, wird die Übertragung abgebrochen.(siehe Abbildung)~\cite{LA_FR1}\cite{LA_CAN3}
+        Diskrepanz vor, wird die Übertragung abgebrochen.(siehe Abbildung \ref{fig:AL01})~\cite{LA_FR1}\cite{LA_CAN3}
 
         \begin{figure}
             \centering
             \includegraphics[width=0.5\linewidth]{./images/Kapitel4/CAN_Arbitration.png}
             \caption[
                 An analysis of CAN-based steer-by-wire system performance in vehicle \cite{LA_CAN3}]{CAN-Arbitrierung}
+            \label{fig:AL01}
         \end{figure}
     \end{itemize}
    
     \subsubsection{Vor- und Nachteile}
     \begin{center}
-        \begin{tabular}{p{5.5cm} p{5.5cm}}
-            \hline
-            Vorteile & Nachteile\\
-            \hline
-            \hline - Kosteneffizient & - nicht Ausfallsicher\\
-            \hline - einfache Konfiguration & - \\
-            \hline - vielseitig & - \\
-            \hline - Kompatibilität zwischen CAN generationen & - \\
+        \begin{tabular}{l|l}
+            \textbf{Vorteile} & \textbf{Nachteile}\\
+            \hline Kosteneffizient & nicht Ausfallsicher\\
+            \hline einfache Konfiguration & \\
+            \hline vielseitig & \\
+            \hline Kompatibilität zwischen CAN Generationen & \\
             \hline
         \end{tabular}            
     \end{center}
@@ -121,15 +119,15 @@
     erfordern. Standartisiert ist LIN nach ISO-Norm 17987.
     ~\cite{reif2011bosch}\\\\
     Unter den Anwendungsgebieten befinden sich beispielhaft:
-    \begin{description}
-    \item[-] Ansteuerung der Fensterheber Motoren
-    \item[-] Ansteuerung des Schiebedachantriebs
-    \item[-] Ansteuerung des Wischermotoren
-    \item[-] Auslesen von Licht-/Regensensor
-    \item[-] Scheinwerferelektronik
-    \item[-] Ansteuerung der Sitzmotoren
-    \item[-] Gebläse/Heizelement steuerung der Klimaanlage
-    \end{description}
+    \begin{itemize}
+    \item Ansteuerung der Fensterheber Motoren
+    \item Ansteuerung des Schiebedachantriebs
+    \item Ansteuerung des Wischermotoren
+    \item Auslesen von Licht-/Regensensor
+    \item Scheinwerferelektronik
+    \item Ansteuerung der Sitzmotoren
+    \item Gebläse/Heizelement steuerung der Klimaanlage
+    \end{itemize}
 
     \subsubsection{Topologie}
     Generell wird LIN als Subbussystem/Subnetzwerk von CAN gesehen. Es besitzt dieselbe
@@ -158,11 +156,11 @@
     Der Buszugriff ist deterministisch über TDMA geregelt, wobei der Master das Zeitraster vorgibt.
     In einem LIN-Netzwerk werden die Nachrichten in einer Festkonfigurierten länge versendet.
     Der Master versendet Header Frames über den Bus, dieser enthält eine Botschafts-ID, um 
-    den Slaves zu signalisieren welche Botschaft über den Bus gesendet werden darf. Der Slave
-    der auf die Botschafts-ID konfiguriert ist sendet anschließend eine Frame Response die die 
-    Daten enthält. Jeder Knoten entscheidet für sich, anhand der Botschafts-ID, ob die Daten für 
-    ihn von bedeutung sind.
-    Alle Botschafts-ID‘s und Nachrichtenformate müssen im vorhinein beim
+    den Slaves zu signalisieren welche Botschaft über den Bus gesendet werden darf. Der Slave,
+    der auf die Botschafts-ID konfiguriert ist, sendet anschließend eine Frame Response, die die 
+    Daten enthält. Jeder Knoten entscheidet anhand der Botschafts-ID ob die Daten für 
+    ihn von Bedeutung sind.
+    Alle Botschafts-ID‘s und Nachrichtenformate müssen im Vorhinein beim
     Master und den Slaves konfiguriert werden. Als Konfigurationsunterstützung sind Tools 
     erhältlich die direkt C-Code erstellen, die zur Implementierung des Masters und der Slaves
     herangezogen werden können.~\cite{LA_LIN1}\cite{LA_LDF-Tool}
@@ -170,13 +168,11 @@
     \subsubsection{Vor- und Nachteile}
 
     \begin{center}
-        \begin{tabular}{p{5.5cm} p{5.5cm}}
-            \hline
-            Vorteile & Nachteile\\
-            \hline
-            \hline - Kosteneffizient & - geringe Bandbreite\\
-            \hline - einfache Konfiguration durch Tools & - störanfällig\\
-            \hline - & - viel Overhead\\
+        \begin{tabular}{l|l}
+            \textbf{Vorteile} & \textbf{Nachteile}\\
+            \hline Kosteneffizient & geringe Bandbreite\\
+            \hline einfache Konfiguration durch Tools & störanfällig\\
+            \hline & viel Overhead\\
             \hline
         \end{tabular}            
     \end{center}
@@ -253,15 +249,15 @@
     Die Komplexität von FlexRay stammt zusätzlich von einem hohen Freiheitsgrad in der
     Parametrisierung.\\
     In folgender Auflistung werden einige frei wählbaren Parameter erwähnt~\cite{LA_FR2}:
-    \begin{description}
-    \item[-] Zykluszeit
-    \item[-] länge des deterministischen Segments
-    \item[-] länge des dynamischen Segments
-    \item[-] Anzahl der Zeitslot in den Segmenten
-    \item[-] länge der Zeitslots
-    \item[-] Redundantes/Nicht-Redundantes Versenden
-    \item[-] Nachrichtenlänge im deterministischen Segment
-    \end{description}
+    \begin{itemize}
+    \item Zykluszeit
+    \item Länge des deterministischen Segments
+    \item Länge des dynamischen Segments
+    \item Anzahl der Zeitslot in den Segmenten
+    \item Länge der Zeitslots
+    \item Redundantes/Nicht-Redundantes Versenden
+    \item Nachrichtenlänge im deterministischen Segment
+    \end{itemize}
 
     Darüber hinaus müssen alle, in der Entwicklung eines FlexRay Netzwerkes beteiligten Hersteller, im 
     vorhinein über die finale Konfiguration des Netzwerkes Bescheid wissen, um Zykluszeiten und 
@@ -270,13 +266,11 @@
 
     \subsubsection{Vor- und Nachteile}
     \begin{center}
-        \begin{tabular}{p{5.5cm} p{5.5cm}}
-            \hline
-            Vorteile & Nachteile\\
-            \hline
-            \hline - Ausfallsicherheit & - teurer und komplexer als alternative Bussysteme (CAN-FD, Automotive Ethernet)\\
-            \hline - höhere Datenrate wie CAN &  - Bandbreite nicht ausreichend für moderne Funktionen\\
-            \hline - gut anpassbar an Problemstellung & - Parametrisierung komplex\\
+        \begin{tabular}{l|l}
+            \textbf{Vorteile} & \textbf{Nachteile}\\
+            \hline Ausfallsicherheit & teurer und komplexer als alternative\\& Bussysteme \\&(CAN-FD, Automotive Ethernet)\\
+            \hline höhere Datenrate als CAN & Bandbreite nicht ausreichen\\& für moderne Funktionen\\
+            \hline gut anpassbar an Problemstellung & Parametrisierung komplex\\
             \hline
         \end{tabular}            
     \end{center}
@@ -285,31 +279,36 @@
     
     \subsection{Automotive Ethernet}
     \subsubsection{Anwendung}
-    Für Ethernet im Automotive Bereich wird der Standard IEEE 802.3 verwendet. Trotz seiner hohen Beliebtheit und Verbreitung war Ethernet im Automotive Bereich lange Zeit undenkbar, vor allem da es keine Echtzeit erfüllen kann und für kleine Anwendungen zu teuer ist (siehe Abbildung "NR FEHLT"). Moderne Anwendungen (z.B. komplexere Assistenzsysteme, Diagnose- oder Multimedia-Anwendungen) fordern jedoch immer höhere Datenraten, so dass Ethernet immer mehr Beachtung bekommt. Es wurden auch Protokolle und Technologien entwickelt, um Ethernet besser an die Anforderungen anzupassen. Es gibt mit TimeTriggeredEthernet/SAE AS6802 einen echtzeitfähigen Ethernet Bus und durch Audio-Video-Bridging können komplexere Multi-Media-Anwendungen, z.B. Surround Sound oder synchrone Wiedergabe von Audio/Video-Dateien, realisiert werden. Um Kosten und Leitungen zu sparen wurde 100Base-T1 entwickelt, hier wird nur ein verdrillter Kupferdraht benutzt. \cite{.MH_Ethernet}
+    Für Ethernet im Automotive Bereich wird der Standard IEEE 802.3 verwendet. Trotz seiner hohen Beliebtheit und 
+    Verbreitung war Ethernet im Automotive Bereich lange Zeit undenkbar, vor allem da es keine
+     Echtzeit erfüllen kann und für kleine Anwendungen zu teuer ist. Moderne Anwendungen (z.B. komplexere Assistenzsysteme, Diagnose- oder Multimedia-Anwendungen) fordern jedoch immer höhere Datenraten, so dass Ethernet immer mehr Beachtung bekommt. Es wurden auch Protokolle und Technologien entwickelt, um Ethernet besser an die Anforderungen anzupassen. Es gibt mit TimeTriggeredEthernet/SAE AS6802 einen echtzeitfähigen Ethernet Bus und durch Audio-Video-Bridging können komplexere Multi-Media-Anwendungen, z.B. Surround Sound oder synchrone Wiedergabe von Audio/Video-Dateien, realisiert werden. Um Kosten und Leitungen zu sparen wurde 100Base-T1 entwickelt, hier wird nur ein verdrillter Kupferdraht benutzt. \cite{.MH_Ethernet}
     
     \subsubsection{Topologie}
-    Ethernet wird im Automotive Bereich oft in der Stern- (siehe Abbildung "NR FEHLT"), Bus- (siehe Abbildung "NR FEHLT") oder Baumtopologie (siehe Abbildung "NR FEHLT") verwendet. Dies ist ein neuer Ansatz, da die meisten bisherigen Bussysteme nahezu nur auf die Stern- und Bustopologie setzen.
-    
+    Ethernet wird im Automotive Bereich oft in der Stern- (siehe Abbildung \ref{fig:MH03}), Bus- (siehe Abbildung \ref{fig:MH01}) oder Baumtopologie (siehe Abbildung \ref{fig:MH02}) verwendet. Dies ist ein neuer Ansatz, da die meisten bisherigen Bussysteme nahezu nur auf die Stern- und Bustopologie setzen.
     \cite{.MH_Vehicle}
     
     \begin{figure}[h!]
         \centering
         \begin{subfigure}[b]{0.4\textwidth}
             \includegraphics[width=\linewidth]{bus_topology.jpg}
-            \subcaption{Abbildung "NR FEHLT" \cite{.MH_Bus}}
+            \subcaption[2.bp.blogspot.com/-R-uihxzRU6g/WOIFGLjqtMI/\\AAAAAAAAEdg/X3YgTGUxQ8MSCbm14OsAB\\MnhWUTK-Ee-gCLcB/s1600/bus\textunderscore topology.jpg]{Bus}
+            \label{fig:MH01}
         \end{subfigure}
         \begin{subfigure}[b]{0.4\textwidth}
             \includegraphics[width=\linewidth]{tree_topology.jpg}
-            \subcaption{Abbildung "NR FEHLT" \cite{.MH_Tree}}
+            \subcaption[units.folder101.com/cisco/sem1/Notes/ch2-topologies/tree.gif]{Tree}
+            \label{fig:MH02}
         \end{subfigure}
         \begin{subfigure}[b]{0.4\textwidth}
             \includegraphics[width=\linewidth]{stern_topology.jpg}
-            \subcaption{Abbildung "NR FEHLT" \cite{.MH_Star}}
+            \subcaption[slideplayer.org/slide/791365/2/images/3/Sternstruktur+\\(Ethernet+Twisted+Pair).jpg]{Star}
+            \label{fig:MH03}
         \end{subfigure}
         \caption{Ethernet Topologie}
     \end{figure}
     
     \subsubsection{Vor- und Nachteile}
+    \begin{center}
     \begin{tabular}{l|l}
         \textbf{Vorteile} & \textbf{Nachteile}\\
         \hline hohe Datenrate & hohe Kosten\\
@@ -321,12 +320,11 @@
         Wiederverwertbarkeit der Software&\\
         \hline einfacher Austausch von Komponenten &\\
     \end{tabular}
+\end{center}
     
     \subsection{MOST}		
     \subsubsection{Anwendung}
-    Der MOST-Bus (Media Oriented Systems Transport) wird von der MOST Cooperation standardisiert und wird im Automotive Bereich nahezu ausschließlich für Multi-Media-Anwendungen eingesetzt. Durch seine hohe Datenrate kann es schnell viele Daten zwischen den Komponenten verschicken.
-    
-    
+    Der MOST-Bus (Media Oriented Systems Transport) wird von der MOST Cooperation standardisiert und wird im Automotive Bereich nahezu ausschließlich für Multi-Media-Anwendungen eingesetzt. Durch seine hohe Datenrate kann es schnell viele Daten zwischen den Komponenten verschicken. 
     \cite{.MH_Vehicle}
     
     \subsubsection{Topologie}
@@ -336,16 +334,18 @@
     
     \begin{figure}[h!]
         \includegraphics[width=\linewidth]{most_ring.jpg}
-        \caption{Abbildung 4.3 \cite{.MH_Ring}}
+        \caption[images.tecchannel.de/bdb/361603/840x473.jpg]{Ring}
     \end{figure}
     
     \subsubsection{Vor- und Nachteile}
+    \begin{center}
     \begin{tabular}{l|l}
         \textbf{Vorteile} & \textbf{Nachteile}\\
         \hline hohe Datenrate & hohe Kosten\\
         \hline einfacher Austausch von Komponenten & proprietäre Hardware\\
         \hline einheitliche Schnittstellen von Komponenten &\\
     \end{tabular}
+    \end{center}
     
     \subsection{Bluetooth}		
     \subsubsection{Anwendung}
@@ -362,13 +362,15 @@
     \begin{figure}[h!]
         \centering
         \includegraphics[width=0.5\linewidth]{pico_scatternet.png}
-        \caption{Abbildung  \cite{.MH_Scatter}}
+        \caption[de.wikipedia.org/wiki/Scatternet{\#}/\\media/Datei:BluetoothScatternet-de.svg]{Scatter}
     \end{figure}
     
     \subsubsection{Vor- und Nachteile}
+    \begin{center}
     \begin{tabular}{l|l}
         \textbf{Vorteile} & \textbf{Nachteile}\\
         \hline geringe Kosten & geringe Datenrate\\
         \hline kabellos & geringe Reichweite\\
         \hline Standardsoftware & störanfälliger als physische Busse\\
     \end{tabular}
+\end{center}

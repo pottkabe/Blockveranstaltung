@@ -5,6 +5,7 @@
 \usepackage{tabularx}
 \usepackage{subcaption}
 \usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
 \captionsetup[subfigure]{list=true, font=large, labelfont=bf, 
 	labelformat=brace, position=top}
 
@@ -52,6 +53,7 @@
 \tableofcontents
 
 %including the separate Files
+\include{Kapitel2}
 \include{Kapitel3}
 \include{Kapitel4}
 \include{Kapitel5a}
@@ -59,8 +61,11 @@
 \include{Kapitel7}
 \include{Kapitel8}
 
+\begingroup
+\RaggedRight
 \bibliography{References}
-\bibliographystyle{abbrv}
+\bibliographystyle{unsrt}
+\endgroup
 \listoffigures
 
 \end{document}
