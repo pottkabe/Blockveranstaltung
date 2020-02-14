@@ -1,13 +1,13 @@
 %TS Quellen
 
 @article{TS_sensor_aufteilen,
-	Autor={ITWissenl.info},
+	author={ITWissenl.info},
 	URL= {https://www.itwissen.info/lex-images/uebersicht-ueber-verschiedene-sensoren.png},
 	urldate={11. Februar 2020}
 }	
 
 @article{TS_sensoren,
-	Autor={ITWissenl.info},
+	author={ITWissenl.info},
 	URL= {https://www.itwissen.info/Sensor-sensor.html},
 	urldate={11. Februar 2020}
 }	
@@ -34,7 +34,7 @@
 }
 
 @article{ TS_ind_funkt,
-	Autor= {Hella, VW},
+	author= {Hella, VW},
 	publisher ={Akademiebericht Drillingen},
 	year= {2003},
 	URL= {https://www.kfztech.de/kfztechnik/elo/sensoren/induktivgeber.htm\},
@@ -42,7 +42,7 @@
 }
 
 @article{ TS_ind_funkt_pic,
-	Author= {Hella, VW},
+	author= {Hella, VW},
 	publisher ={Akademiebericht Drillingen},
 	year= {2003},
 	URL= {https://www.kfztech.de/kfztechnik/elo/sensoren/induktivgeber.htm\},
@@ -50,57 +50,57 @@
 }
 
 @article{ TS_oel,
-	Author= {Bosch},
+	author= {Bosch},
 	URL= {https://www.kfztech.de/kfztechnik/elo/sensoren/oelsensor.htm},
 	urldate={11. Februar 2020}
 }
 
 @article{ TS_dreh,
-	Author= {Bosch und Opel},
+	author= {Bosch und Opel},
 	URL={https://www.kfztech.de/kfztechnik/fahrwerk/lenkung/drehmosensor.htm},
 	urldate={11. Februar 2020}
 }
 
 @article{ TS_dreh_pic_mag,
-	Author= {Bosch},
+	author= {Bosch},
 	URL={https://www.kfztech.de/kfztechnik/fahrwerk/lenkung/magnetroresistiv.jpg},
 	urldate={12. Februar 2020}
 }
 
 @article{ TS_dreh_pic_photo,
-	Author= {Bosch},
+	author= {Bosch},
 	URL= {https://www.kfztech.de/kfztechnik/fahrwerk/lenkung/photoelektrisch.jpg},
 	urldate={12. Februar 2020}
 }
 
 @article{ TS_regen,
-	Author= {Bosch, BMW},
+	author= {Bosch, BMW},
 	publisher= {Akademie für Lehrerfortbildung Drillingen, Hella},
 	URL= {https://www.kfztech.de/kfztechnik/sicherheit/regensensor.htm},
 	urldate={12. Februar 2020}
 }
 
 @article{ TS_regen_pic,
-	Author= {Bosch, BMW},
+	author= {Bosch, BMW},
 	publisher= {Akademie für Lehrerfortbildung Drillingen, Hella},
 	URL= {https://archiv.langzeittest.de/volvo-s40/intern/grafik/cb-regensensor-prinzip.jpg},
 	urldate={12. Februar 2020}
 }
 
 @article{ TS_swt_pic,
-	Author= {Continental},
+	author= {Continental},
 	URL= {https://www.kfztech.de/kfztechnik/sicherheit/swt/swt1.gif},
 	urldate={12. Februar 2020}
 }
 
 @article{ TS_swt,
-	Author= {Continental},
+	author= {Continental},
 	URL= {https://www.kfztech.de/kfztechnik/sicherheit/swt.htm},
 	urldate={12. Februar 2020}
 }
 
 @article{ TS_l_q_k_pic,
-	Author= {Ralf Pfeifer},
+	author= {Ralf Pfeifer},
 	year= {29.04.2018},
 	URL= {http://www.arstechnica.de/index.html?name=http://www.arstechnica.de/auto/differential/rad/seitenfuehrung.html}, 
 	urldate={12. Februar 2020}
@@ -114,19 +114,19 @@
 }
 
 @article{ TS_rdks,
-	Author= {Beru, Citroen, ContinentalTeves, Peugeot, Infineon/SensoNor, Siemens, Hella, TPM-Systems, Ventech, Nokian u.v.m.},
+	author= {Beru, Citroen, ContinentalTeves, Peugeot, Infineon/SensoNor, Siemens, Hella, TPM-Systems, Ventech, Nokian u.v.m.},
 	URL= {https://www.kfztech.de/kfztechnik/fahrwerk/reifen/rdks.htm},
 	urldate={12. Februar 2020}
 }
 
 @article{ TS_rdks_pic,
-	Author= {Beru, Citroen, ContinentalTeves, Peugeot, Infineon/SensoNor, Siemens, Hella, TPM-Systems, Ventech, Nokian u.v.m.},
+	author= {Beru, Citroen, ContinentalTeves, Peugeot, Infineon/SensoNor, Siemens, Hella, TPM-Systems, Ventech, Nokian u.v.m.},
 	URL= {https://www.kfztech.de/kfztechnik/fahrwerk/reifen/rdks.htm},
 	urldate={12. Februar 2020}
 }
 
 @article{ TS_hall,
-	Author= {Bosch, Hella,VW, Audi},
+	author= {Bosch, Hella,VW, Audi},
 	publisher= {Akademiebericht},
 	year= {2003},
 	URL= {https://www.kfztech.de/kfztechnik/elo/sensoren/hallsensor.htm},
@@ -134,7 +134,7 @@
 }
 
 @article{ TS_hall_pic,
-	Author= {Bosch, Hella,VW, Audi},
+	author= {Bosch, Hella,VW, Audi},
 	publisher= {Akademiebericht},
 	year= {2003},
 	URL= {https://www.kfztech.de/kfztechnik/elo/sensoren/hallsensor.htm},
@@ -142,39 +142,39 @@
 }
 
 @article{ TS_drehzahl_sensor,
-	Author= {Bosch, Herr Papert,VW, Audi, Reinhold Dörfler},
+	author= {Bosch, Herr Papert,VW, Audi, Reinhold Dörfler},
 	publisher= { Akademiebericht Drillingen},
 	URL= {https://www.kfztech.de/kfztechnik/elo/sensoren/drehzahlsensor.htm},
 	urldate={12. Februar 2020}
 }
 
 @article{ TS_drehzahl_sensor_pic,
-	Author= {Bosch, Herr Papert,VW, Audi, Reinhold Dörfler},
+	author= {Bosch, Herr Papert,VW, Audi, Reinhold Dörfler},
 	publisher= { Akademiebericht Drillingen},
 	URL= {https://www.kfztech.de/kfztechnik/elo/sensoren/drehzahlsensor.htm},
 	urldate={12. Februar 2020}
 }
 
 @article{ TS_lambda,
-	Author= {Beru,NGK,Helmut Felder, TU Darmstadt, H. Dörfler},
+	author= {Beru,NGK,Helmut Felder, TU Darmstadt, H. Dörfler},
 	URL= {https://www.kfztech.de/kfztechnik/motor/abgas/lambda/lambda1.htm},
 	urldate={12. Februar 2020}
 }
 
 @article{ TS_lambda_pic,
-	Author= {Beru,NGK,Helmut Felder, TU Darmstadt, H. Dörfler},
+	author= {Beru,NGK,Helmut Felder, TU Darmstadt, H. Dörfler},
 	URL= {https://www.kfztech.de/kfztechnik/motor/abgas/lambda/lambda1.htm},
 	urldate={12. Februar 2020}
 }
 
 @article{ TS_airbag,
-	Author= {Bosch, Renault, VW, Autoliv, BMW, Airbag-Sachkundekurs},
+	author= {Bosch, Renault, VW, Autoliv, BMW, Airbag-Sachkundekurs},
 	URL= {https://www.kfztech.de/kfztechnik/sicherheit/airbag/airbag.htm},
 	urldate={12. Februar 2020}
 }
 
 @article{ TS_ultraschall_pic,
-	Author= {Bosch},
+	author= {Bosch},
 	URL= { https://www.bosch-presse.de/pressportal/de/media/migrated_media/pressegespr_ch_fahrerassistenz_2012/1-ae-17866-2.jpg},
 	urldate={12. Februar 2020}
 }
