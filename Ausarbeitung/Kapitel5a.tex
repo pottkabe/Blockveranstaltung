@@ -30,7 +30,7 @@
             \item \textbf{Nicht-Mechanische Sensoren}: verändern ihre Eigenschaften durch nicht-mechanische Einwirkungen, zum Beispiel chemisch durch Lichteinwirkung.
         \end{itemize}
         \begin{table}
-        \begin{tabularx}{\textwidth} {l|l|l}
+        \begin{tabularx}{\textwidth}{l|l|l}
 
                     \textbf{Sensorart} & \textbf{Messtechnik} & \textbf{Beispiele}\\
 					\hline
@@ -92,7 +92,7 @@
         Ein Ausfall des Sensors kann durch folgende Ursachen hervorgerufen werden:
 
         \begin{itemize}
-            \item Kurzschlussbegin
+            \item Kurzschlussbeginn
             \item Leitungsunterbrechung
             \item Verschmutzung
             \item Mechanische Beschädigung
@@ -122,11 +122,12 @@
             Die Sensoren sind auf einen Messbereich zwischen -40$^\circ$C und +200$^\circ$C skaliert.
             Für Temperaturen, die über diesen Bereich herausgehen, werden spezielle Hochtemperatursensoren (HTS) verwendet.
 
-            \begin{figure}
-				\centering
-                \includegraphics[width=\textwidth] {aufbau_ntc.png}
-                \caption[www.kfztech.de/kfztechnik/elo/sensoren/ntc.htm]{Aufbau NTC}
-                \label{fig:TS02}
+            \begin{figure}[h]
+			
+	        	\includegraphics[width=\textwidth]{aufbau_ntc.png}
+	            \caption[www.kfztech.de/kfztechnik/elo/sensoren/ntc.htm]{Aufbau NTC}
+	            \label{fig:TS02}
+            
 			\end{figure}
 
             Abbildung \ref{fig:TS02} zeigt den Aufbau eines Temperatursensors.
@@ -162,18 +163,18 @@
 			Für ein Verständnis, wo diese Sensoren welche Aufgaben im KFZ- Bereich erfüllt, reicht es nur den groben Aufbau zu kennen.\\
 			Eine Spule wird von Strom durchflossen, welche daraufhin ein Magnetfeld erzeugt.\\	
 
+			\begin{figure}[h]
+				\centering
+				\includegraphics{Induktiv_mit_legende.jpg}
+				\caption[www.kfztech.de/kfztechnik/elo/sensoren/induktivgeber.htm]{Induktiver Sensor}
+				\label{fig:TS03}
+			\end{figure}
+			
 			In Abbildung \ref{fig:TS03} ist der Sensor über einer Art Zahnrad, welches man Impulsrad nennt, angebracht.\\
             
             "Der magnetische Fluss durch die Spule hängt davon ab, ob dem Sensor eine Lücke oder ein Zahn gegenübersteht. Ein Zahn bündelt den Streufluss des Magneten, eine Lücke dagegen schwächt den Magnetfluss." \cite{TS_ind_funkt}  
 			Die Anzahl der Änderungen/ Impulse in einer bestimmten Zeiteinheit ist ein Maß für die Drehzahl des zu messenden Objekts. Darüber hinaus kann auch die exakte Position des Moduls erkannt werden.\\					
             
-                \begin{figure}
-                    \centering
-			    	\includegraphics{Induktiv_mit_legende.jpg}
-                    \caption[www.kfztech.de/kfztechnik/elo/sensoren/induktivgeber.htm]{Induktiver Sensor}
-                    \label{fig:TS03}
-                \end{figure}
-
 			Induktive Sensoren werden beispielsweise in folgenden Modulen verwendet:
 			
 			\begin{itemize}
@@ -222,7 +223,7 @@
                         Die Leuchtdiode sendet gebündeltes Licht aus, welches auf der gegenüberliegenden Seite von der Fotodiode erkannt wird. Bei einfallendem Licht verändert sich der durchfließende elektrische Strom durch die Fotodiode.\\
                         Dreht sich also die Scheibe kommt es zu einem Wechsel der Stromstärke. Diese Impulse werden an das angebundene Steuergerät gesendet, welches aus diesen empfangenden Informationen die Drehgeschwindigkeit berechnen kann.\\
                         
-                        \begin{figure}
+                        \begin{figure}[h]
                             \centering
                             \includegraphics{photoelektrisch.png}
                              \caption[www.kfztech.de/kfztechnik/fahrwerk/lenkung/photoelektrisch.jpg]{Photooptisches Prinzip}
@@ -239,7 +240,7 @@
 				Befinden sich nun Wassertropfen in dem Bereich des Sensors auf der Frontscheibe wird das ausgesendete Lichtbündel nicht komplett reflektiert, sondern ein Teil des Lichtes wird gebrochen und durch den Tropfen gestreut. Das Resultat daraus ist, dass der ausgesendete Lichtstrahl nur noch mit einem Bruchteil der ursprünglichen Stärke den Sensor erreicht.\\
 				Aus diesen Daten errechnet die dort darin befindliche Elektronik die Stärke des Niederschlages, gibt diese an ein Steuergerät weiter, welches wiederum die Scheibenwischer ansteuert. Somit bleibt die Oberfläche des Sensors immer tropfenfrei und es wird ein optimales Messergebnis erreicht. (Fig. 8)
 				
-				\begin{figure}
+				\begin{figure}[h]
 					\centering
 					\includegraphics{regensensor2.jpg}
                     \caption[archiv.langzeittest.de/volvo-s40/intern/grafik/cb-regensensor-prinzip.jpg] {Prinzip eines Regensensors}
@@ -250,7 +251,7 @@
 
 				Elektronische Regelsysteme wie ABS oder ESP benötigen sämtliche Informationen über das Zusammenspiel zwischen Fahrzeug und dem Fahruntergrund und den daraus entstehenden Kräften. Um die einzelnen Sekundärgrößen wie Motorleistung, Bremsdruck, Radgeschwindigkeit und Fahrzeugbeschleunigung zur Berechnung nicht mehr benutzen zu müssen, wurde von Continental ein Sensorsystem entwickelt, welches das Rad als Sensor fungieren lässt, das sogenannte SWT-System. 
 				
-				\begin{figure}
+				\begin{figure}[h]
 					\centering
 					\includegraphics{swt1.png}
                     \caption[www.kfztech.de/kfztechnik/sicherheit/swt/swt1.gif]{Reifen als Sensor}
@@ -335,7 +336,7 @@
                 Durch den Dauermagneten wird ein Magnetfeld erzeugt, welches den Sensor senkrecht durchfließt. Passiert ein metallischer Gegenstand, beispielsweise ein Zahn der Nockenwelle, verändert dieser das Magnetfeld, welches den Sensor durchfließt.
 				Elektronen werden senkrecht zum Magnetfeld stärker abgelenkt, wobei eine Hall-Spannung von mehreren Millivolt erzeugt. Eine integrierte Auswerteelektronik bereitet das Signal auf und leitet es an in Form eines Rechtecksignals an das Steuergerät geleitet. \cite{TS_hall}
 
-				\begin{figure}
+				\begin{figure}[h]
 					\centering
 					\includegraphics[width=\textwidth]{hall.png}
 					\caption[www.kfztech.de/kfztechnik/elo/sensoren/hallsensor.htm]{Aufbau eines Hall-Sensors}
